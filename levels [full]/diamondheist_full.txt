@@ -384,6 +384,7 @@
 		1) Unit 100500 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'chopper_voice_throw_down' [MissionScriptElement] 101702 from default
 	Execute element 'trigger_throw_down' [MissionScriptElement] 101703 from default
@@ -490,12 +491,18 @@
 'logic_link_060' [MissionScriptElement] 100487 from default
 	Perform 'func_sequence_033': 	(DELAY 2)
 		Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
+		Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+		Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
 		If difficulty is {Overkill, Overkill 145+} then perform:
 			Roll the dice with 70% chance to succeed.
 			On success, perform:
 				Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
 		Toggle ON element 'dialogue_vault_trigger' [ElementAreaTrigger] 101627 from default
-				Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329	(DELAY 13)
+				Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329	(DELAY 2.5)
+		Toggle ON element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+		Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
+		Execute element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default	(DELAY 5)
 		Set difficulty to 1 
 	Toggle ON element 'trigger_area_028' [ElementAreaTrigger] 100489 from default	(DELAY 2)
  
@@ -626,6 +633,7 @@
 		1) Unit 100607 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'bain_voice_good_work_on_hack_pad' [MissionScriptElement] 101671 from default
  
@@ -809,6 +817,7 @@
 		1) Unit 100608 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'logic_counter_017' [ElementCounter] 101736 from default
 	When counter target 5 is reached, perform:
@@ -1398,6 +1407,10 @@
 'trigger_special_objective_036' [ElementSpecialObjectiveTrigger] 102475 from prefereds
 	When one of AI enemies that are following special objective 'walk_fwd_shoot_var1' from element 'point_special_objective_179' performs event 'anim_act_01' then perform:
 		Run sequence 'destroy_02' on unit 702409 {units/world/architecture/diamondheist/diamondheist_interior_window_01} at (-3489, -4711.9995117188, 780.0009765625) 
+ 
+'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
+	[INITIALLY DISABLED]
+	Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
  
 'logic_link_094' [MissionScriptElement] 100716 from prefereds
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (-6475, 1400, 1175) with rotation (-0, 0, -90)
@@ -2022,6 +2035,7 @@
 	Play dialogue 'dia_ban_97x_any'
  
 'logic_link_129' [MissionScriptElement] 100848 from default
+	[INITIALLY DISABLED]
 	Execute at random 2 of the following elements:
 		1) 'logic_link_131' [MissionScriptElement] 100850 from default
 		2) 'env_effect_play_016' [ElementPlayEffect] 100839 from default
@@ -2399,12 +2413,18 @@
  
 'logic_link_139' [MissionScriptElement] 100498 from default
 	Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
 	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
 	Toggle ON element 'dialogue_vault_trigger' [ElementAreaTrigger] 101627 from default
-		Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329	(DELAY 13)
+		Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329	(DELAY 2.5)
+	Toggle ON element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
+	Execute element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default	(DELAY 5)
 	Set difficulty to 1 
 	Toggle ON element 'trigger_area_028' [ElementAreaTrigger] 100489 from default
  
@@ -3190,6 +3210,7 @@
 	Toggle OFF element 'logic_link_163' [MissionScriptElement] 101629 from default	(DELAY 0.26666700839996)
 	Toggle OFF element 'logic_random_025' [ElementRandom] 101632 from default	(DELAY 0.26666700839996)
 	Toggle OFF element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle OFF element 'logic_toggle_bgfx_01' [ElementToggle] 106601 from default
 	Toggle OFF element 'logic_link_177' [MissionScriptElement] 101746 from default	(DELAY 0.10000000149012)
 	Toggle OFF element 'dia_8' [ElementTeammateComment] 101744 from default	(DELAY 0.10000000149012)
 	Toggle OFF element 'dia_9' [ElementTeammateComment] 101745 from default	(DELAY 0.10000000149012)
@@ -4274,6 +4295,7 @@
 		Print debug string 'sug mitt ollon'
  
 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	[INITIALLY DISABLED]
 	When counter target 1 is reached, perform:
 		Execute element 'trigger_special_objective_001_players_seen' [ElementSpecialObjectiveTrigger] 100069 from default
 		Print debug string 'alarm_off'
@@ -4925,6 +4947,7 @@
 		1) Unit 100527 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'bain_voice_temp' [MissionScriptElement] 101665 from default
 	Toggle ON element 'trigger_area_061' [ElementAreaTrigger] 101799 from default
@@ -5068,6 +5091,7 @@
 		1) Unit 100502 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'bain_voice_on_how_to_get_to_red_diamond' [MissionScriptElement] 101762 from default
  
@@ -5201,6 +5225,7 @@
 		1) Unit 100616 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'bain_voice_still_have_ralph' [MissionScriptElement] 101699 from default
 	Play dialogue 'dia_ban_70x_any'
@@ -5374,6 +5399,7 @@
 		1) Unit 100606 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'bain_voice_allright_picking_you_up' [MissionScriptElement] 101732 from escape
 	Make teammates say 'dia_72'	(DELAY 9)
@@ -5647,6 +5673,7 @@
 		1) Unit 100391 {units/world/props/diamond_stand/diamond_stand_03} runs 'destroy_01a'
 	Then perform:
 		Execute element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+		Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
  
 'logic_link_217' [MissionScriptElement] 102277 from default
 	Spawn enemy unit {units/characters/enemies/spooc/spooc} at position (-5175, -5275, 50) with rotation (-0, 0, -90)
@@ -5848,6 +5875,7 @@
 	Run sequence 'fake_alert' on unit 702338 {units/world/architecture/diamondheist/diamondheist_interior_window_01} at (-1715, -349.0029296875, 780) 
  
 'logic_chance_006' [ElementLogicChance] 102278 from default
+	[INITIALLY DISABLED]
 	Roll the dice with 50% chance to succeed.
 	On success, perform:
 		Execute element 'logic_link_216' [MissionScriptElement] 102276 from default
@@ -6994,6 +7022,9 @@
 	[INITIAL TRIGGER TIMES: 1]
 	Run sequence 'destroy_02' on unit 702409 {units/world/architecture/diamondheist/diamondheist_interior_window_01} at (-3489, -4711.9995117188, 780.0009765625) 
  
+'logic_toggle_bgfx_02' [ElementToggle] 106603 from default
+	Toggle ON element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default
+ 
 'point_spawn_player_008' [ElementPlayerSpawner] 100013 from default
 	Create player spawn at position (-174, -2228, 775) with rotation (-0, 0, 0)
  
@@ -7192,6 +7223,10 @@
 'func_sequence_236' [ElementUnitSequence] 102477 from prefereds
 	[INITIAL TRIGGER TIMES: 1]
 	Run sequence 'destroy_02' on unit 702410 {units/world/architecture/diamondheist/diamondheist_interior_window_01} at (-3599, -4711.9995117188, 780.0009765625) 
+ 
+'logic_toggle_bgfx_03' [ElementToggle] 106604 from default
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
  
 'point_spawn_player_009' [ElementPlayerSpawner] 100014 from default
 	Create player spawn at position (-3500, -4925, 375) with rotation (-0, 0, -90)
@@ -9230,6 +9265,10 @@
  
 'ai_graph_001' [ElementAIGraph] 100377 from default
 		Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329
+	Toggle ON element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
+	Execute element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default	(DELAY 5)
  
 'func_objective_014' [ElementObjective] 100409 from default
 	Activate objective 'diamond_codes' at position (-2900, 3725, 3475) 
@@ -9586,12 +9625,18 @@
  
 'func_sequence_033' [ElementUnitSequence] 100379 from default
 	Run sequence 'open_door' on unit 700300 {units/world/props/bank/vault/vault_door_set} at (-3600, -2394, 25) 
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
 	If difficulty is {Overkill, Overkill 145+} then perform:
 		Roll the dice with 70% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_150' [MissionScriptElement] 101468 from default
 	Toggle ON element 'dialogue_vault_trigger' [ElementAreaTrigger] 101627 from default
-		Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329	(DELAY 13)
+		Allow AI nav sections 86, 87, 88, 83, 326, 331, 330, 329	(DELAY 2.5)
+	Toggle ON element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
+	Execute element 'logic_link_bgfx_01' [MissionScriptElement] 106602 from default	(DELAY 5)
 	Set difficulty to 1 
  
 'point_waypoint_014' [ElementWaypoint] 100411 from default
@@ -10302,6 +10347,7 @@
 	Toggle OFF element 'logic_link_163' [MissionScriptElement] 101629 from default
 	Toggle OFF element 'logic_random_025' [ElementRandom] 101632 from default
 	Toggle OFF element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle OFF element 'logic_toggle_bgfx_01' [ElementToggle] 106601 from default
  
 'dia_42' [ElementTeammateComment] 101662 from default
 	Make teammates say 'dia_42'
@@ -10531,6 +10577,7 @@
  
 'logic_toggle_095' [ElementToggle] 101631 from default
 	Toggle OFF element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle OFF element 'logic_toggle_bgfx_01' [ElementToggle] 106601 from default
  
 'dia_ban_49' [ElementDialogue] 101663 from default
 	Play dialogue 'dia_ban_49x_any'
@@ -11797,4 +11844,9 @@
 	[INITIAL TRIGGER TIMES: 20]
 	Create objective for enemies around position (-4900, 4075, 3125)
 	Create objective for enemies around position (-5000, 3300, 3125) with action AI_hunt	(DELAY 1)
+ 
+'logic_toggle_bgfx_01' [ElementToggle] 106601 from default
+	Toggle ON element 'glass_broken_in_vault' [ElementCounter] 101628 from default
+	Toggle ON element 'logic_chance_006' [ElementLogicChance] 102278 from default
+	Toggle ON element 'logic_link_129' [MissionScriptElement] 100848 from default
  

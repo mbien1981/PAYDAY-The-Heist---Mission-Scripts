@@ -792,6 +792,12 @@
 				Add preferred spawn point for {units/characters/enemies/swat/swat} with action repel_through_wndw_short at (2450, -4375, -157.31300354004)
 				Add preferred spawn point for {units/characters/enemies/swat/swat} with action repel_through_wndw_short at (2125, -4350, -163.47799682617)
 				Add preferred spawn point for {units/characters/enemies/swat/swat} with action spawn_swatbus_var1 at (1850, -4475, -141.62100219727)
+				Run sequence 'make_dynamic' on unit 104091 {units/world/props/bank/bank_vent/bank_vent_cover} at (3880, -1149, -434.41799926758) 
+				Delete 1 unit by ID	(DELAY 3)
+					1) Delete unit 104091 {units/world/props/bank/bank_vent/bank_vent_cover} at position (3880, -1149, -434.41799926758)
+				Run sequence 'make_dynamic' on unit 104092 {units/world/props/bank/bank_vent/bank_vent_cover} at (4641, -1097, -433.70001220703) 
+				Delete 1 unit by ID	(DELAY 3)
+					1) Delete unit 104092 {units/world/props/bank/bank_vent/bank_vent_cover} at position (4641, -1097, -433.70001220703)
  
 'trigger_area_092' [ElementAreaTrigger] 101517 from default
 	[INITIALLY DISABLED]
@@ -949,16 +955,16 @@
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
+'logic_link_050' [MissionScriptElement] 102276 from event_jason_windows
+	Perform 'logic_operator_016': 	(DELAY 1)
+		Remove element 'func_scenario_event_006' [ElementScenarioEvent] 102270 from event_jason_windows
+ 
 'logic_link_029' [MissionScriptElement] 102973 from default
 	Execute at random 2 of the following elements:
 		1) 'point_special_objective_068' [ElementSpecialObjective] 104330 from default
 		2) 'point_special_objective_043' [ElementSpecialObjective] 104317 from default
 		3) 'point_special_objective_042' [ElementSpecialObjective] 104316 from default
 		4) 'point_special_objective_044' [ElementSpecialObjective] 104318 from default
- 
-'logic_link_050' [MissionScriptElement] 102276 from event_jason_windows
-	Perform 'logic_operator_016': 	(DELAY 1)
-		Remove element 'func_scenario_event_006' [ElementScenarioEvent] 102270 from event_jason_windows
  
 'ai_enemy_trigger_010' [ElementEnemyDummyTrigger] 102286 from event_jason_windows
 	If event 'spawn' gets executed by any of:
@@ -1028,6 +1034,12 @@
 		Play sound 'emitter_lorry_idle_01'
 		Make teammates close to instigator say 'fwb_22'
  
+'ai_enemy_trigger_013' [ElementEnemyDummyTrigger] 102289 from event_jason_windows
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_048'
+	Then perform:
+		Run sequence 'destroy' on unit 101534 {units/world/architecture/bank/bank_window/bank_window} at (241, -3969, 468) 
+ 
 'ai_enemy_trigger_048' [ElementEnemyDummyTrigger] 103581 from default
 	If event 'spawn' gets executed by any of:
 		1) {units/characters/enemies/security/security_guard_01} from element 'ai_spawn_enemy_063'
@@ -1049,11 +1061,11 @@
 		Enable outline for all civilians that have the property 'outline_on_discover' 
 		Make teammates close to instigator say 'fwb_36'
  
-'ai_enemy_trigger_013' [ElementEnemyDummyTrigger] 102289 from event_jason_windows
+'ai_enemy_trigger_012' [ElementEnemyDummyTrigger] 102288 from event_jason_windows
 	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_048'
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_049'
 	Then perform:
-		Run sequence 'destroy' on unit 101534 {units/world/architecture/bank/bank_window/bank_window} at (241, -3969, 468) 
+		Run sequence 'destroy' on unit 100895 {units/world/architecture/bank/bank_window/bank_window} at (-185, -3970, 470) 
  
 'func_sequence_trigger_037' [ElementUnitSequenceTrigger] 101646 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -1085,11 +1097,11 @@
 		2) 'logic_link_131' [MissionScriptElement] 103537 from default
 		3) 'logic_link_130' [MissionScriptElement] 103536 from default
  
-'ai_enemy_trigger_012' [ElementEnemyDummyTrigger] 102288 from event_jason_windows
+'ai_enemy_trigger_011' [ElementEnemyDummyTrigger] 102287 from event_jason_windows
 	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_049'
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_047'
 	Then perform:
-		Run sequence 'destroy' on unit 100895 {units/world/architecture/bank/bank_window/bank_window} at (-185, -3970, 470) 
+		Run sequence 'destroy' on unit 101540 {units/world/architecture/bank/bank_window/bank_window} at (-722, -3968, 470) 
  
 'logic_link_179activateSwatNavLinks' [MissionScriptElement] 103965 from default
 	Create navigation link for enemies from position (-1275, 1200, 5.0006098747253) to (-1440.6300048828, 1385.5, 5.0006098747253) with action move_std_corner_run_r
@@ -1115,12 +1127,6 @@
 		1) {units/characters/enemies/sniper/sniper} from element 'ai_spawn_enemy_072'
 	Then perform:
 		Execute element 'logic_counter_011' [ElementCounter] 101578 from default
- 
-'ai_enemy_trigger_011' [ElementEnemyDummyTrigger] 102287 from event_jason_windows
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_047'
-	Then perform:
-		Run sequence 'destroy' on unit 101540 {units/world/architecture/bank/bank_window/bank_window} at (-722, -3968, 470) 
  
 'trigger_area_035' [ElementAreaTrigger] 102126 from default
 	[INITIALLY DISABLED]
@@ -1184,6 +1190,10 @@
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
+'logic_link_057' [MissionScriptElement] 102580 from event_conferance_windows
+	Perform 'logic_operator_021': 	(DELAY 1)
+		Remove element 'func_scenario_event_009' [ElementScenarioEvent] 102578 from event_conferance_windows
+ 
 'trigger_area_020' [ElementAreaTrigger] 100527 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
@@ -1199,14 +1209,13 @@
 			2) 'logic_toggle_088' [ElementToggle] 103638 from default
 			3) 'logic_toggle_089' [ElementToggle] 103639 from default
  
-'logic_link_057' [MissionScriptElement] 102580 from event_conferance_windows
-	Perform 'logic_operator_021': 	(DELAY 1)
-		Remove element 'func_scenario_event_009' [ElementScenarioEvent] 102578 from event_conferance_windows
- 
-'ai_enemy_trigger_080' [ElementEnemyDummyTrigger] 103553 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_118'
-	Then perform:
+'trigger_area_063' [ElementAreaTrigger] 101721 from default
+	[INITIALLY DISABLED]
+	[INITIAL TRIGGER TIMES: 1]
+	Trigger shape (WxHxD): 958.32501220703 x 500 x 1419.8800048828 at position (-300, -584, 75)
+	Trigger instigator: player
+	When trigger condition 'on_enter' is met, perform:
+		Enable outline for all civilians that have the property 'outline_on_discover' 
  
 'logic_link_058' [MissionScriptElement] 102583 from event_conferance_windows
  
@@ -1364,6 +1373,12 @@
 	Make teammates say 'fwb_62'
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (-1225, -2250, 476.00100708008) with rotation (-0, 0, 0)	(DELAY 0.2333330065012)
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (-1450, -2250, 476.00100708008) with rotation (-0, 0, 0)
+ 
+'ai_enemy_trigger_082' [ElementEnemyDummyTrigger] 103472 from event_drill_roof_snipers
+	If event 'death' gets executed by any of:
+		1) {units/characters/enemies/sniper/sniper} from element 'ai_spawn_enemy_087'
+	Then perform:
+		Execute element 'logic_counter_033' [ElementCounter] 103799 from event_drill_roof_snipers
  
 'logic_link_186' [MissionScriptElement] 104142 from baldwin
 	[INITIALLY DISABLED]
@@ -1575,6 +1590,13 @@
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
+'logic_link_force_glb_chpr' [MissionScriptElement] 100459 from event_globe_chopper
+	100% base chance with 0% increase to use spawn event with task 'any' 1 time at position (-1525, 1125, 5.0006098747253)
+	Execute element 'logic_link_010' [MissionScriptElement] 100620 from event_globe_chopper
+	Execute element 'logic_link_011' [MissionScriptElement] 100624 from event_globe_chopper
+	Create objective for enemies around position (-1559.0300292969, 2323.3500976563, -20.000099182129) with radius 700
+	Toggle OFF element 'logic_link_force_glb_chpr' [MissionScriptElement] 100459 from event_globe_chopper
+ 
 'func_sequence_trigger_155' [ElementUnitSequenceTrigger] 104270 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
@@ -1608,18 +1630,10 @@
 				5) '145_spooc1' [ElementSpawnEnemyDummy] 104074 from default
 				6) '145_spooc2' [ElementSpawnEnemyDummy] 104075 from default
  
-'ai_enemy_trigger_082' [ElementEnemyDummyTrigger] 103472 from event_drill_roof_snipers
-	If event 'death' gets executed by any of:
-		1) {units/characters/enemies/sniper/sniper} from element 'ai_spawn_enemy_087'
-	Then perform:
-		Execute element 'logic_counter_033' [ElementCounter] 103799 from event_drill_roof_snipers
- 
-'logic_link_force_glb_chpr' [MissionScriptElement] 100459 from event_globe_chopper
-	100% base chance with 0% increase to use spawn event with task 'any' 1 time at position (-1525, 1125, 5.0006098747253)
-	Execute element 'logic_link_010' [MissionScriptElement] 100620 from event_globe_chopper
-	Execute element 'logic_link_011' [MissionScriptElement] 100624 from event_globe_chopper
-	Create objective for enemies around position (-1559.0300292969, 2323.3500976563, -20.000099182129) with radius 700
-	Toggle OFF element 'logic_link_force_glb_chpr' [MissionScriptElement] 100459 from event_globe_chopper
+'logic_link_105' [MissionScriptElement] 101403 from default
+	Run sequence 'interactable' on unit 101366 {units/equipment/laptop_objective/laptop_objective} at (123, -3659, 566.95501708984) 
+	Add waypoint with text 'Security Footage' and icon wp_standard at (139, -3632, 600.01702880859) 
+	Toggle ON element 'trigger_area_075' [ElementAreaTrigger] 103282 from default
  
 'ai_enemy_trigger_003' [ElementEnemyDummyTrigger] 100352 from event_globe_window
 	If event 'anim_act_03' gets executed by any of:
@@ -1633,6 +1647,10 @@
 		Toggle OFF element 'ai_enemy_trigger_096' [ElementEnemyDummyTrigger] 100015 from event_globe_window	(DELAY 4)
 		Print debug string 'wndw offff'
  
+'logic_link_006' [MissionScriptElement] 100596 from event_globe_window
+	Perform 'logic_operator_002': 	(DELAY 1)
+		Remove element 'func_scenario_event_002' [ElementScenarioEvent] 100338 from event_globe_window
+ 
 'trigger_area_014' [ElementAreaTrigger] 102495 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
@@ -1645,33 +1663,21 @@
 		Toggle OFF element 'logic_link_126' [MissionScriptElement] 103323 from default
 		Make teammates say 'g06'
  
-'ai_enemy_trigger_075' [ElementEnemyDummyTrigger] 102075 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/bank_manager/bank_manager2} from element 'ai_spawn_civilian_017'
-	Then perform:
-		Spawn civilian unit {units/characters/civilians/suit_male_2/suit_male_2} at position (-375, -1700, -34.999000549316) with rotation (-0, 0, 158.80865478516)
-		Toggle ON element 'trigger_area_055' [ElementAreaTrigger] 103668 from default
- 
-'func_sequence_trigger_066' [ElementUnitSequenceTrigger] 100592 from default
-	[INITIAL TRIGGER TIMES: 1]
-	If any of the following sequences get triggered:
-		1) Unit 102621 {units/world/props/security_camera/security_camera} runs 'stop'
-	Then perform:
-		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
- 
-'logic_link_011' [MissionScriptElement] 100624 from event_globe_chopper
-	Execute element 'logic_link_008' [MissionScriptElement] 100615 from event_globe_chopper	(DELAY 26)
-	Run sequence 'swat' on unit 105967 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1737, 2866, -175) 
-	Run sequence 'flyin_left_hover' on unit 105967 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1737, 2866, -175) 
+'logic_counter_039' [ElementCounter] 101723 from default
+	When counter target 5 is reached, perform:
+		Toggle ON element 'trigger_area_071' [ElementAreaTrigger] 101665 from default
+		Play dialogue 'Play_ban_v02x'
+		Toggle OFF element 'logic_chance_011' [ElementLogicChance] 102765 from default
+		Toggle OFF element 'logic_chance_008' [ElementLogicChance] 102696 from default
  
 'logic_link_185' [MissionScriptElement] 104141 from baldwin
 	[INITIALLY DISABLED]
 	Execute element 'logic_link_186' [MissionScriptElement] 104142 from baldwin
  
-'func_sequence_trigger_068' [ElementUnitSequenceTrigger] 100656 from default
+'func_sequence_trigger_066' [ElementUnitSequenceTrigger] 100592 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
-		1) Unit 102695 {units/world/props/security_camera/security_camera} runs 'stop'
+		1) Unit 102621 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
@@ -1683,6 +1689,18 @@
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
 		Execute element 'logic_counter_039' [ElementCounter] 101723 from default
+ 
+'logic_link_011' [MissionScriptElement] 100624 from event_globe_chopper
+	Execute element 'logic_link_008' [MissionScriptElement] 100615 from event_globe_chopper	(DELAY 26)
+	Run sequence 'swat' on unit 105967 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1737, 2866, -175) 
+	Run sequence 'flyin_left_hover' on unit 105967 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1737, 2866, -175) 
+ 
+'func_sequence_trigger_068' [ElementUnitSequenceTrigger] 100656 from default
+	[INITIAL TRIGGER TIMES: 1]
+	If any of the following sequences get triggered:
+		1) Unit 102695 {units/world/props/security_camera/security_camera} runs 'stop'
+	Then perform:
+		Execute element 'logic_counter_021' [ElementCounter] 100853 from default
  
 'logic_link_097' [MissionScriptElement] 100800 from default
 	Create objective for friendlies around position (738.5, -1921.1700439453, 471.00100708008) with radius 1000 with action so_cover_crh_left_loop	(DELAY 0.56666702032089)
@@ -1737,14 +1755,6 @@
 		Toggle OFF element 'logic_toggle_083' [ElementToggle] 103358 from default
 		Toggle OFF element 'logic_toggle_084' [ElementToggle] 103359 from default
 		Toggle OFF element 'point_teammate_comment_052' [ElementTeammateComment] 103361 from default
- 
-'logic_link_076' [MissionScriptElement] 103378 from default
-	Print debug string 'spawned bossss'
-	Print debug string 'spawned boosss'	(DELAY 3)
-	Spawn enemy unit {units/characters/enemies/taser/taser} at position (-750, -1550, 476.00100708008) with rotation (-0, -0, 3.0735860491404e-005)
-	Spawn enemy unit {units/characters/enemies/taser/taser} at position (-550, -1600, 476.00100708008) with rotation (-0, 0, -90)
-	Toggle ON element 'logic_link_071' [MissionScriptElement] 102239 from default
-	Play dialogue 'Play_ban_s05'
  
 'logic_link_094' [MissionScriptElement] 400492 from sheild_army
 	Spawn enemy unit {units/characters/enemies/shield/shield} at position (-5464.330078125, 2445.7800292969, -137.02499389648) with rotation (-0, 0, -144.40472412109)
@@ -1861,13 +1871,13 @@
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
  
-'logic_link_034' [MissionScriptElement] 101984 from event_cafeteria_chopper
-	Run sequence 'hover_flyout_back' on unit 105953 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1038.6400146484, -2163.2399902344, 356.99099731445) 	(DELAY 16)
-	Run sequence 'hidden' on unit 105953 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1038.6400146484, -2163.2399902344, 356.99099731445) 	(DELAY 35)
- 
 'logic_link_117' [MissionScriptElement] 400367 from sheild_army
 	Perform 'logic_operator_038': 	(DELAY 1)
 		Remove element 'func_scenario_event_011' [ElementScenarioEvent] 400587 from sheild_army
+ 
+'logic_link_034' [MissionScriptElement] 101984 from event_cafeteria_chopper
+	Run sequence 'hover_flyout_back' on unit 105953 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1038.6400146484, -2163.2399902344, 356.99099731445) 	(DELAY 16)
+	Run sequence 'hidden' on unit 105953 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1038.6400146484, -2163.2399902344, 356.99099731445) 	(DELAY 35)
  
 'logic_link_187' [MissionScriptElement] 104143 from baldwin
 	If the difficulty is {Easy, Normal, Hard, Overkill, Overkill 145+} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:
@@ -1976,17 +1986,17 @@
 		Run sequence 'show' on unit 106080 {units/equipment/c4_charge/c4_plantable} at (-3335, 2352, 103.94899749756) 
 		Execute element 'logic_counter_002' [ElementCounter] 100358 from event_globe_window
  
-'ai_enemy_trigger_005' [ElementEnemyDummyTrigger] 100593 from event_globe_window
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_007'
-	Then perform:
-		Play effect {effects/particles/bullet_hit/paper/bullet_hit_paper_confetti} at position Vector3(-2750, 2917, 50)	(DELAY 3.5999999046326)
- 
 'logic_link_137' [MissionScriptElement] 101553 from default
 	Execute element 'logic_link_141' [MissionScriptElement] 103787 from default	(DELAY 23.933300018311)
 	Execute element 'logic_link_142' [MissionScriptElement] 103788 from default	(DELAY 12.133299827576)
 	Execute element 'logic_link_143' [MissionScriptElement] 103789 from default	(DELAY 29.566699981689)
 	Execute element 'logic_link_144' [MissionScriptElement] 103790 from default	(DELAY 0.1333329975605)
+ 
+'ai_enemy_trigger_005' [ElementEnemyDummyTrigger] 100593 from event_globe_window
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_007'
+	Then perform:
+		Play effect {effects/particles/bullet_hit/paper/bullet_hit_paper_confetti} at position Vector3(-2750, 2917, 50)	(DELAY 3.5999999046326)
  
 'logic_link_012' [MissionScriptElement] 100625 from event_globe_chopper
 	Run sequence 'hover_flyout_back' on unit 105967 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-1737, 2866, -175) 	(DELAY 16)
@@ -2016,13 +2026,6 @@
 	When trigger condition 'on_enter' is met, perform:
 		Play sound 'fwb_banker_conversations_2' from units: 
 			- {units/characters/civilians/suit_male_4/suit_male_4} from element 'ai_spawn_civilian_028'
- 
-'logic_counter_039' [ElementCounter] 101723 from default
-	When counter target 5 is reached, perform:
-		Toggle ON element 'trigger_area_071' [ElementAreaTrigger] 101665 from default
-		Play dialogue 'Play_ban_v02x'
-		Toggle OFF element 'logic_chance_011' [ElementLogicChance] 102765 from default
-		Toggle OFF element 'logic_chance_008' [ElementLogicChance] 102696 from default
  
 'func_sequence_trigger_033' [ElementUnitSequenceTrigger] 101627 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -2054,6 +2057,10 @@
 	When trigger condition 'on_enter' is met, perform:
 		Remove/Kill AI instigator from the level
  
+'logic_counter_018' [ElementCounter] 100701 from default
+	When counter target 2 is reached, perform:
+		Toggle ON element 'trigger_area_007' [ElementAreaTrigger] 100699 from default
+ 
 'logic_link_153' [MissionScriptElement] 103232 from default
 	Play dialogue 'Play_1wb_ban_05x_any'	(DELAY 12)
 	Make teammates say 'fwb_06'	(DELAY 6)
@@ -2066,9 +2073,8 @@
 	When trigger condition 'on_empty' is met, perform:
 		Execute element 'logic_counter_003' [ElementCounter] 103705 from default
  
-'logic_counter_018' [ElementCounter] 100701 from default
-	When counter target 2 is reached, perform:
-		Toggle ON element 'trigger_area_007' [ElementAreaTrigger] 100699 from default
+'logic_link_077' [MissionScriptElement] 103382 from default
+	Execute element 'logic_link_070_boss_loop' [MissionScriptElement] 101608 from default	(DELAY 5)
  
 'ai_enemy_trigger_046' [ElementEnemyDummyTrigger] 103376 from default
 	If event 'spawn' gets executed by any of:
@@ -2080,8 +2086,12 @@
 	When counter target 2 is reached, perform:
 		Toggle ON element 'trigger_area_078' [ElementAreaTrigger] 103356 from default
  
-'logic_link_077' [MissionScriptElement] 103382 from default
-	Execute element 'logic_link_070_boss_loop' [MissionScriptElement] 101608 from default	(DELAY 5)
+'logic_link_071' [MissionScriptElement] 102239 from default
+	[INITIALLY DISABLED]
+	Execute at random 1 of the following elements:	(DELAY 30)
+		1) 'logic_link_074' [MissionScriptElement] 102532 from default
+		2) 'logic_link_076' [MissionScriptElement] 103378 from default
+		3) 'logic_link_075' [MissionScriptElement] 102919 from default
  
 'logic_link_130' [MissionScriptElement] 103536 from default
 	Spawn enemy unit {units/characters/enemies/tank/tank} at position (4575, -3975, 464.30899047852) with rotation (-0, -0, 90)
@@ -2096,25 +2106,6 @@
 	Upon global event 'start_assault', perform:
 		Set difficulty to 0.20000000298023 
  
-'logic_link_105' [MissionScriptElement] 101403 from default
-	Run sequence 'interactable' on unit 101366 {units/equipment/laptop_objective/laptop_objective} at (123, -3659, 566.95501708984) 
-	Add waypoint with text 'Security Footage' and icon wp_standard at (139, -3632, 600.01702880859) 
-	Toggle ON element 'trigger_area_075' [ElementAreaTrigger] 103282 from default
- 
-'logic_link_071' [MissionScriptElement] 102239 from default
-	[INITIALLY DISABLED]
-	Execute at random 1 of the following elements:	(DELAY 30)
-		1) 'logic_link_074' [MissionScriptElement] 102532 from default
-		2) 'logic_link_076' [MissionScriptElement] 103378 from default
-		3) 'logic_link_075' [MissionScriptElement] 102919 from default
- 
-'ai_enemy_trigger_061' [ElementEnemyDummyTrigger] 103760 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_102'
-	Then perform:
-		Perform 'func_sequence_080': 	(DELAY 0.69999998807907)
-			Run sequence 'dest7' on unit 102829 {units/world/architecture/bank/bank_second_office_glass/bank_second_office_glass} at (4059, -4598, 546) 
- 
 'ai_enemy_trigger_008' [ElementEnemyDummyTrigger] 102254 from event_cafeteria_window
 	If event 'anim_act_03' gets executed by any of:
 		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_042_cafeteriaPlanter'
@@ -2127,6 +2118,13 @@
 		Toggle OFF element 'ai_enemy_trigger_097' [ElementEnemyDummyTrigger] 100086 from event_cafeteria_window	(DELAY 4)
 		Print debug string 'mercedes off'
  
+'ai_enemy_trigger_061' [ElementEnemyDummyTrigger] 103760 from default
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_102'
+	Then perform:
+		Perform 'func_sequence_080': 	(DELAY 0.69999998807907)
+			Run sequence 'dest7' on unit 102829 {units/world/architecture/bank/bank_second_office_glass/bank_second_office_glass} at (4059, -4598, 546) 
+ 
 'logic_link_086' [MissionScriptElement] 103904 from default
 	Execute element 'logic_link_087' [MissionScriptElement] 103905 from default	(DELAY 5)
  
@@ -2137,13 +2135,6 @@
 	Then perform:
 		Execute element 'logic_counter_038' [ElementCounter] 101927 from default
 		Execute element 'logic_counter_042' [ElementCounter] 101931 from default
- 
-'logic_link_163' [MissionScriptElement] 101953 from default
-	[INITIALLY DISABLED]
-	Spawn enemy unit {units/characters/enemies/tank/tank} at position (-2650, -3550, -124.74299621582) with rotation (-0, -0, 90)	(DELAY 1)
-	Create objective for instigator around position (-2550, -3625, -124.76000213623) with action AI_hunt
-	Spawn enemy unit {units/characters/enemies/tank/tank} at position (-3175, 3775, -125) with rotation (-0, -0, 90)
-	Create objective for instigator around position (-3250, 3850, 26.002000808716) with action AI_hunt
  
 'func_sequence_trigger_091' [ElementUnitSequenceTrigger] 104188 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
@@ -2184,6 +2175,13 @@
 		Make teammates say 'g60'	(DELAY 5)
 		Make teammates say 'g60'	(DELAY 6)
 		Toggle ON element 'trigger_area_107' [ElementAreaTrigger] 104313 from baldwin	(DELAY 3)
+ 
+'logic_link_163' [MissionScriptElement] 101953 from default
+	[INITIALLY DISABLED]
+	Spawn enemy unit {units/characters/enemies/tank/tank} at position (-2650, -3550, -124.74299621582) with rotation (-0, -0, 90)	(DELAY 1)
+	Create objective for instigator around position (-2550, -3625, -124.76000213623) with action AI_hunt
+	Spawn enemy unit {units/characters/enemies/tank/tank} at position (-3175, 3775, -125) with rotation (-0, -0, 90)
+	Create objective for instigator around position (-3250, 3850, 26.002000808716) with action AI_hunt
  
 'logic_link_037' [MissionScriptElement] 102033 from default
 	Spawn enemy unit {units/characters/enemies/cop/cop} at position (-5275, -775, -125) with rotation (-0, 0, -146.07315063477)	(DELAY 0.10000000149012)
@@ -2343,17 +2341,27 @@
 		Create objective for instigator around position (-725, -1700, 564.92999267578) with action AI_hunt
 		Make teammates say 'fwb_65'
  
-'trigger_area_087' [ElementAreaTrigger] 102977 from civillian_backdrop
-	Trigger shape (WxHxD): 6450.6000976563 x 500 x 2331.7299804688 at position (-11525, 3200, 25)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
-		Remove/Kill AI instigator from the level
- 
 'ai_enemy_trigger_052' [ElementEnemyDummyTrigger] 101854 from default
 	If event 'death' gets executed by any of:
 		1) {units/characters/enemies/sniper/sniper} from element 'ai_spawn_enemy_076'
 	Then perform:
 		Execute element 'logic_counter_011' [ElementCounter] 101578 from default
+ 
+'logic_link_081' [MissionScriptElement] 100823 from default
+	Execute at random 2 of the following elements:	(DELAY 2)
+		1) 'ai_spawn_enemy_072' [ElementSpawnEnemyDummy] 100743 from default
+		2) 'ai_spawn_enemy_076' [ElementSpawnEnemyDummy] 101205 from default
+		3) 'ai_spawn_enemy_075' [ElementSpawnEnemyDummy] 101204 from default
+		4) 'ai_spawn_enemy_073' [ElementSpawnEnemyDummy] 100787 from default
+	Toggle ON element 'trigger_area_010' [ElementAreaTrigger] 100229 from default
+	Execute element 'logic_link_112' [MissionScriptElement] 100692 from default
+	Reset counter 'logic_counter_011' with counter target 2
+ 
+'trigger_area_087' [ElementAreaTrigger] 102977 from civillian_backdrop
+	Trigger shape (WxHxD): 6450.6000976563 x 500 x 2331.7299804688 at position (-11525, 3200, 25)
+	Trigger instigator: civilians
+	When trigger condition 'on_enter' is met, perform:
+		Remove/Kill AI instigator from the level
  
 'func_sequence_trigger_017' [ElementUnitSequenceTrigger] 100962 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -2368,16 +2376,6 @@
 		1) Unit 102307 {units/equipment/money_bag/money_bag_small} runs 'money_bag_full'
 	Then perform:
 		Execute element 'logic_counter_017' [ElementCounter] 101024 from default
- 
-'logic_link_081' [MissionScriptElement] 100823 from default
-	Execute at random 2 of the following elements:	(DELAY 2)
-		1) 'ai_spawn_enemy_072' [ElementSpawnEnemyDummy] 100743 from default
-		2) 'ai_spawn_enemy_076' [ElementSpawnEnemyDummy] 101205 from default
-		3) 'ai_spawn_enemy_075' [ElementSpawnEnemyDummy] 101204 from default
-		4) 'ai_spawn_enemy_073' [ElementSpawnEnemyDummy] 100787 from default
-	Toggle ON element 'trigger_area_010' [ElementAreaTrigger] 100229 from default
-	Execute element 'logic_link_112' [MissionScriptElement] 100692 from default
-	Reset counter 'logic_counter_011' with counter target 2
  
 'logic_link_166' [MissionScriptElement] 103089 from default
 	If difficulty is Hard then perform:
@@ -2398,16 +2396,16 @@
 		On success, perform:
 			Execute element 'logic_link_165' [MissionScriptElement] 102693 from default	(DELAY 2)
  
-'logic_counter_023' [ElementCounter] 103201 from default
-	When counter target 2 is reached, perform:
-		Toggle OFF element 'logic_link_168' [MissionScriptElement] 103197 from default
-		Toggle OFF element 'logic_link_167' [MissionScriptElement] 103193 from default
- 
 'logic_link_072' [MissionScriptElement] 102269 from default
 	Execute at random 1 of the following elements:	(DELAY 90)
 		1) 'logic_link_074' [MissionScriptElement] 102532 from default
 		2) 'logic_link_076' [MissionScriptElement] 103378 from default
 		3) 'logic_link_075' [MissionScriptElement] 102919 from default
+ 
+'logic_counter_023' [ElementCounter] 103201 from default
+	When counter target 2 is reached, perform:
+		Toggle OFF element 'logic_link_168' [MissionScriptElement] 103197 from default
+		Toggle OFF element 'logic_link_167' [MissionScriptElement] 103193 from default
  
 'ai_enemy_trigger_097' [ElementEnemyDummyTrigger] 100086 from event_cafeteria_window
 	If event 'death' gets executed by any of:
@@ -2482,19 +2480,19 @@
 		Set danger zone level to 3
 		Print debug string '3'
  
-'ai_enemy_trigger_062' [ElementEnemyDummyTrigger] 103761 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_101'
-	Then perform:
-		Perform 'func_sequence_079': 	(DELAY 0.69999998807907)
-			Run sequence 'dest5' on unit 102829 {units/world/architecture/bank/bank_second_office_glass/bank_second_office_glass} at (4059, -4598, 546) 
- 
 'func_sequence_trigger_177' [ElementUnitSequenceTrigger] 104297 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
 		1) Unit 200254 {units/world/props/slaughterhouse/gold_bar/gold_bar} runs 'interact'
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
+ 
+'ai_enemy_trigger_062' [ElementEnemyDummyTrigger] 103761 from default
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_101'
+	Then perform:
+		Perform 'func_sequence_079': 	(DELAY 0.69999998807907)
+			Run sequence 'dest5' on unit 102829 {units/world/architecture/bank/bank_second_office_glass/bank_second_office_glass} at (4059, -4598, 546) 
  
 'logic_link_start_effects_globe' [MissionScriptElement] 103873 from default
 	Play effect {effects/particles/dest/smoke_pocket} at position Vector3(-3125, 1966, 114)
@@ -2616,6 +2614,13 @@
 	Then perform:
 		Execute element 'logic_counter_012' [ElementCounter] 102502 from default
  
+'ai_enemy_trigger_075' [ElementEnemyDummyTrigger] 102075 from default
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/bank_manager/bank_manager2} from element 'ai_spawn_civilian_017'
+	Then perform:
+		Spawn civilian unit {units/characters/civilians/suit_male_2/suit_male_2} at position (-375, -1700, -34.999000549316) with rotation (-0, 0, 158.80865478516)
+		Toggle ON element 'trigger_area_055' [ElementAreaTrigger] 103668 from default
+ 
 'func_sequence_trigger_001' [ElementUnitSequenceTrigger] 100627 from event_globe_chopper
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
@@ -2627,10 +2632,6 @@
 		Create objective for enemies around position (-1559.0300292969, 2323.3500976563, -20.000099182129) with radius 700
 		Toggle OFF element 'logic_link_force_glb_chpr' [MissionScriptElement] 100459 from event_globe_chopper
  
-'logic_link_006' [MissionScriptElement] 100596 from event_globe_window
-	Perform 'logic_operator_002': 	(DELAY 1)
-		Remove element 'func_scenario_event_002' [ElementScenarioEvent] 100338 from event_globe_window
- 
 'trigger_area_070' [ElementAreaTrigger] 101664 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 4]
@@ -2639,14 +2640,6 @@
 	When trigger condition 'on_enter' is met, perform:
 		Set danger zone level to 1
 		Print debug string '1'
- 
-'logic_link_083' [MissionScriptElement] 100851 from default
-	Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-2850, -3625, -125) with rotation (-0, -0, 90)	(DELAY 1.9666700363159)
-	Spawn enemy unit {units/characters/enemies/cop/cop} at position (-2800, -3525, -125) with rotation (-0, -0, 90)	(DELAY 3.3333299160004)
-	Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-3000, 3775, -125) with rotation (-0, -0, 90)	(DELAY 2.7666699886322)
-	Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-2900, 3775, -125) with rotation (-0, -0, 90)	(DELAY 0.66666698455811)
-	Spawn enemy unit {units/characters/enemies/cop3/cop3} at position (-3000, 3775, -125) with rotation (-0, -0, 90)
-	Execute element 'logic_link_084' [MissionScriptElement] 103727 from default	(DELAY 1)
  
 'trigger_area_005' [ElementAreaTrigger] 101533 from default
 	[INITIALLY DISABLED]
@@ -2660,6 +2653,14 @@
 		Toggle OFF element 'func_dialogue_077_bain' [ElementDialogue] 103317 from default
 		Enable fake assault state
  
+'logic_link_083' [MissionScriptElement] 100851 from default
+	Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-2850, -3625, -125) with rotation (-0, -0, 90)	(DELAY 1.9666700363159)
+	Spawn enemy unit {units/characters/enemies/cop/cop} at position (-2800, -3525, -125) with rotation (-0, -0, 90)	(DELAY 3.3333299160004)
+	Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-3000, 3775, -125) with rotation (-0, -0, 90)	(DELAY 2.7666699886322)
+	Spawn enemy unit {units/characters/enemies/cop2/cop2} at position (-2900, 3775, -125) with rotation (-0, -0, 90)	(DELAY 0.66666698455811)
+	Spawn enemy unit {units/characters/enemies/cop3/cop3} at position (-3000, 3775, -125) with rotation (-0, -0, 90)
+	Execute element 'logic_link_084' [MissionScriptElement] 103727 from default	(DELAY 1)
+ 
 'trigger_area_071' [ElementAreaTrigger] 101665 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 4]
@@ -2668,13 +2669,6 @@
 	When trigger condition 'on_enter' is met, perform:
 		Set danger zone level to 2
 		Print debug string '2'
- 
-'ai_enemy_trigger_004' [ElementEnemyDummyTrigger] 102994 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/civilians/suit_male_1/suit_male_1} from element 'ai_spawn_civilian_031'
-	Then perform:
-		Toggle OFF element 'trigger_area_027' [ElementAreaTrigger] 101573 from default
-		Toggle ON element 'trigger_area_091' [ElementAreaTrigger] 101199 from default
  
 'ai_enemy_trigger_028' [ElementEnemyDummyTrigger] 101373 from default
 	If event 'spawn' gets executed by any of:
@@ -2722,6 +2716,13 @@
 	Play effect {effects/particles/dest/smoke_pocket} at position Vector3(6919, 1726, 60)	(DELAY 0.16666699945927)
 	Play effect {effects/particles/dest/smoke_pocket} at position Vector3(6919, 1726, -302)
 	Toggle ON element 'trigger_area_058' [ElementAreaTrigger] 103854 from default
+ 
+'ai_enemy_trigger_004' [ElementEnemyDummyTrigger] 102994 from default
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/civilians/suit_male_1/suit_male_1} from element 'ai_spawn_civilian_031'
+	Then perform:
+		Toggle OFF element 'trigger_area_027' [ElementAreaTrigger] 101573 from default
+		Toggle ON element 'trigger_area_091' [ElementAreaTrigger] 101199 from default
  
 'ai_enemy_trigger_022' [ElementEnemyDummyTrigger] 101333 from default
 	If event 'spawn' gets executed by any of:
@@ -2780,6 +2781,15 @@
 	When trigger condition 'on_enter' is met, perform:
 		Toggle ON element 'trigger_area_037' [ElementAreaTrigger] 102141 from default
  
+'trigger_area_089' [ElementAreaTrigger] 100059 from default
+	[INITIALLY DISABLED]
+	[INITIAL TRIGGER TIMES: 1]
+	Trigger shape (WxHxD): 1306.2900390625 x 500 x 855 at position (825, -1325, 475)
+	Trigger instigator: player
+	When trigger condition 'on_enter' is met, perform:
+		Play sound 'fwb_banker_conversations_3' from units: 
+			- {units/characters/civilians/suit_male_3/suit_male_3} from element 'ai_spawn_civilian_025'
+ 
 'trigger_area_075' [ElementAreaTrigger] 103282 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
@@ -2825,20 +2835,6 @@
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 103399 from default
  
-'trigger_area_089' [ElementAreaTrigger] 100059 from default
-	[INITIALLY DISABLED]
-	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1306.2900390625 x 500 x 855 at position (825, -1325, 475)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
-		Play sound 'fwb_banker_conversations_3' from units: 
-			- {units/characters/civilians/suit_male_3/suit_male_3} from element 'ai_spawn_civilian_025'
- 
-'logic_link_128' [MissionScriptElement] 103426 from default
-	Create objective for enemies around position (-681.19097900391, -634.16998291016, 5.0006098747253) with radius 5000 with action AI_defend
-	Create objective for enemies around position (-673.41198730469, -656.00201416016, 5.0006098747253) with radius 5000 with action AI_defend
-	Create objective for enemies around position (-710.27301025391, -641.34002685547, 5.0006098747253) with radius 5000 with action AI_defend
- 
 'func_sequence_trigger_059' [ElementUnitSequenceTrigger] 101712 from default
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
@@ -2847,6 +2843,17 @@
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
 		Execute element 'logic_counter_039' [ElementCounter] 101723 from default
+ 
+'logic_link_128' [MissionScriptElement] 103426 from default
+	Create objective for enemies around position (-681.19097900391, -634.16998291016, 5.0006098747253) with radius 5000 with action AI_defend
+	Create objective for enemies around position (-673.41198730469, -656.00201416016, 5.0006098747253) with radius 5000 with action AI_defend
+	Create objective for enemies around position (-710.27301025391, -641.34002685547, 5.0006098747253) with radius 5000 with action AI_defend
+ 
+'ai_enemy_trigger_009' [ElementEnemyDummyTrigger] 102068 from default
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/spooc/spooc} from element 'ai_spawn_enemy_083'
+	Then perform:
+		Execute element 'logic_counter_014' [ElementCounter] 103466 from default
  
 'func_sequence_trigger_049' [ElementUnitSequenceTrigger] 101459 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -2865,12 +2872,6 @@
 	Create objective for instigator around position (3775, -3700, 464.30899047852)
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (3075, -4500, 464.30899047852) with rotation (-0, 0, 0)	(DELAY 1)
 	Create objective for instigator around position (3775, -3700, 464.30899047852)
- 
-'ai_enemy_trigger_009' [ElementEnemyDummyTrigger] 102068 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/spooc/spooc} from element 'ai_spawn_enemy_083'
-	Then perform:
-		Execute element 'logic_counter_014' [ElementCounter] 103466 from default
  
 'trigger_area_026' [ElementAreaTrigger] 101571 from default
 	[INITIALLY DISABLED]
@@ -2903,6 +2904,15 @@
 	When trigger condition 'on_enter' is met, perform:
 		Make teammates close to instigator say 'fwb_36'
  
+'func_sequence_trigger_071' [ElementUnitSequenceTrigger] 101717 from default
+	[INITIAL TRIGGER TIMES: 1]
+	If any of the following sequences get triggered:
+		1) Unit 100937 {units/world/props/security_camera/security_camera} runs 'stop'
+	Then perform:
+		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
+		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
+		Execute element 'logic_counter_039' [ElementCounter] 101723 from default
+ 
 'logic_counter_004' [ElementCounter] 101683 from default
 	When counter target 3 is reached, perform:
 		Run sequence 'trigger_expolsive' on unit 102277 {units/equipment/c4_charge/c4_plantable} at (940, -1786.4200439453, 568.72998046875) 
@@ -2919,15 +2929,6 @@
 	[INITIAL TRIGGER TIMES: 1]
 	If any of the following sequences get triggered:
 		1) Unit 102078 {units/world/props/security_camera/security_camera} runs 'stop'
-	Then perform:
-		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
-		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
-		Execute element 'logic_counter_039' [ElementCounter] 101723 from default
- 
-'func_sequence_trigger_071' [ElementUnitSequenceTrigger] 101717 from default
-	[INITIAL TRIGGER TIMES: 1]
-	If any of the following sequences get triggered:
-		1) Unit 100937 {units/world/props/security_camera/security_camera} runs 'stop'
 	Then perform:
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
@@ -3073,13 +3074,13 @@
 			Disable drop-in for players 
 						Allow AI nav sections 268
  
-'logic_link_007' [MissionScriptElement] 100356 from event_globe_window
- 
 'logic_link_191' [MissionScriptElement] 104333 from default
 	Execute element 'spookey' [MissionScriptElement] 104337 from default
  
 'logic_link_023' [MissionScriptElement] 101330 from default
 	Toggle OFF element 'logic_link_020' [MissionScriptElement] 101325 from default
+ 
+'logic_link_007' [MissionScriptElement] 100356 from event_globe_window
  
 'ai_enemy_trigger_057' [ElementEnemyDummyTrigger] 102499 from default
 	If event 'death' gets executed by any of:
@@ -3097,14 +3098,6 @@
 		Perform 'env_effect_stop_006':	(DELAY 10)
 			Stop effect {effects/particles/explosions/smoke_grenade_smoke} with fade-out
 		Make teammates close to instigator say 'g29'	(DELAY 2)
- 
-'trigger_area_063' [ElementAreaTrigger] 101721 from default
-	[INITIALLY DISABLED]
-	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 958.32501220703 x 500 x 1419.8800048828 at position (-300, -584, 75)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
-		Enable outline for all civilians that have the property 'outline_on_discover' 
  
 'logic_link_059' [MissionScriptElement] 102643 from default
 	Activate objective 'bank_escape' at position (2925, -1475, 625) 
@@ -3158,6 +3151,9 @@
 	If event 'spawn' gets executed by any of:
 		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_170'
 	Then perform:
+		Run sequence 'make_dynamic' on unit 104092 {units/world/props/bank/bank_vent/bank_vent_cover} at (4641, -1097, -433.70001220703) 
+		Delete 1 unit by ID	(DELAY 3)
+			1) Delete unit 104092 {units/world/props/bank/bank_vent/bank_vent_cover} at position (4641, -1097, -433.70001220703)
  
 'logic_link_114' [MissionScriptElement] 101594 from default
 	Execute element 'logic_link_116' [MissionScriptElement] 101602 from default	(DELAY 30)
@@ -3170,6 +3166,18 @@
 	When trigger condition 'on_enter' is met, perform:
 		Play sound 'fwb_banker_conversations_4' from units: 
 			- {units/characters/civilians/suit_male_1/suit_male_1} from element 'ai_spawn_civilian_031'
+ 
+'logic_link_30sec_after_drill' [MissionScriptElement] 101704 from default
+	Activate script 'event_conferance_windows'
+	Activate script 'event_cafeteria_chopper'
+ 
+'trigger_area_044' [ElementAreaTrigger] 101719 from default
+	[INITIALLY DISABLED]
+	[INITIAL TRIGGER TIMES: 1]
+	Trigger shape (WxHxD): 220 x 500 x 325 at position (-1875, -1600, 425.00100708008)
+	Trigger instigator: player
+	When trigger condition 'on_enter' is met, perform:
+		Make teammates say 'g02'
  
 'func_sequence_trigger_054' [ElementUnitSequenceTrigger] 103283 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -3191,18 +3199,6 @@
 		1) {units/characters/enemies/spooc/spooc} from element 'ai_spawn_enemy_091'
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 103399 from default
- 
-'logic_link_30sec_after_drill' [MissionScriptElement] 101704 from default
-	Activate script 'event_conferance_windows'
-	Activate script 'event_cafeteria_chopper'
- 
-'trigger_area_044' [ElementAreaTrigger] 101719 from default
-	[INITIALLY DISABLED]
-	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 220 x 500 x 325 at position (-1875, -1600, 425.00100708008)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
-		Make teammates say 'g02'
  
 'func_sequence_trigger_050' [ElementUnitSequenceTrigger] 101460 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -3280,6 +3276,10 @@
 'logic_link_032' [MissionScriptElement] 101940 from event_cafeteria_chopper
 	Perform 'logic_operator_012': 	(DELAY 1)
 		Remove element 'func_scenario_event_004' [ElementScenarioEvent] 101865 from event_cafeteria_chopper
+ 
+'logic_link_122' [MissionScriptElement] 103289 from default
+	Play dialogue 'Play_1wb_ban_06b_any'	(DELAY 45)
+	Execute element 'logic_link_122' [MissionScriptElement] 103289 from default
  
 'func_sequence_trigger_104' [ElementUnitSequenceTrigger] 104211 from baldwin
 	[INITIAL TRIGGER TIMES: 1]
@@ -3362,10 +3362,6 @@
 		2) 'logic_link_076' [MissionScriptElement] 103378 from default
 		3) 'logic_link_075' [MissionScriptElement] 102919 from default
  
-'logic_link_122' [MissionScriptElement] 103289 from default
-	Play dialogue 'Play_1wb_ban_06b_any'	(DELAY 45)
-	Execute element 'logic_link_122' [MissionScriptElement] 103289 from default
- 
 'logic_link_039' [MissionScriptElement] 102166 from default
 	Execute at random 1 of the following elements:
 		1) 'func_sequence_042' [ElementUnitSequence] 102169 from default
@@ -3379,6 +3375,12 @@
 		Stop effect {effects/particles/dest/smoke_pocket} with fade-out
 		Make teammates say 'g01'
  
+'ai_enemy_trigger_021' [ElementEnemyDummyTrigger] 101332 from default
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/security/security_guard_01} from element 'ai_spawn_enemy_027'
+	Then perform:
+		Create objective for instigator around position (-1012.3800048828, -413.4289855957, 5.0006098747253) with action AI_security
+ 
 'logic_link_074' [MissionScriptElement] 102532 from default
 	Spawn enemy unit {units/characters/enemies/tank/tank} at position (-3100, 3775, -125) with rotation (-0, -0, 90)
 	Create objective for instigator around position (-3200, 3550, -125) with action AI_hunt
@@ -3386,12 +3388,6 @@
 	Print debug string 'spawned boosss'	(DELAY 3)
 	Toggle ON element 'logic_link_071' [MissionScriptElement] 102239 from default
 	Play dialogue 'Play_ban_s02_a'
- 
-'ai_enemy_trigger_021' [ElementEnemyDummyTrigger] 101332 from default
-	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/security/security_guard_01} from element 'ai_spawn_enemy_027'
-	Then perform:
-		Create objective for instigator around position (-1012.3800048828, -413.4289855957, 5.0006098747253) with action AI_security
  
 'func_sequence_trigger_070' [ElementUnitSequenceTrigger] 101716 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -3401,6 +3397,14 @@
 		Execute element 'logic_counter_041' [ElementCounter] 101726 from default
 		Execute element 'logic_counter_040' [ElementCounter] 101724 from default
 		Execute element 'logic_counter_039' [ElementCounter] 101723 from default
+ 
+'logic_link_076' [MissionScriptElement] 103378 from default
+	Print debug string 'spawned bossss'
+	Print debug string 'spawned boosss'	(DELAY 3)
+	Spawn enemy unit {units/characters/enemies/taser/taser} at position (-750, -1550, 476.00100708008) with rotation (-0, -0, 3.0735860491404e-005)
+	Spawn enemy unit {units/characters/enemies/taser/taser} at position (-550, -1600, 476.00100708008) with rotation (-0, 0, -90)
+	Toggle ON element 'logic_link_071' [MissionScriptElement] 102239 from default
+	Play dialogue 'Play_ban_s05'
  
 'trigger_area_003' [ElementAreaTrigger] 100645 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -3501,6 +3505,11 @@
 	Then perform:
 		Execute element 'logic_counter_009' [ElementCounter] 103399 from default
  
+'logic_link_063' [MissionScriptElement] 103062 from default
+	Enable fake assault state
+	Make teammates say 'g70'	(DELAY 1)
+	Disable fake assault state	(DELAY 2)
+ 
 'ai_enemy_trigger_100' [ElementEnemyDummyTrigger] 101477 from default
 	If event 'spawn' gets executed by any of:
 		1) {units/characters/civilians/suit_male_5/suit_male_5} from element 'ai_spawn_civilian_002'
@@ -3512,11 +3521,6 @@
 	Execute element 'logic_link_142' [MissionScriptElement] 103788 from default	(DELAY 21.666700363159)
 	Execute element 'logic_link_143' [MissionScriptElement] 103789 from default	(DELAY 35.099998474121)
 	Execute element 'logic_link_144' [MissionScriptElement] 103790 from default
- 
-'logic_link_063' [MissionScriptElement] 103062 from default
-	Enable fake assault state
-	Make teammates say 'g70'	(DELAY 1)
-	Disable fake assault state	(DELAY 2)
  
 'trigger_area_027' [ElementAreaTrigger] 101573 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -3763,6 +3767,12 @@
 	Then perform:
 		Award players money/experience for action 'suburbia_money' which is worth 1000 points
  
+'ai_enemy_trigger_088' [ElementEnemyDummyTrigger] 102383 from event_cafeteria_chopper
+	If event 'spawn' gets executed by any of:
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_018'
+	Then perform:
+		Execute element 'logic_link_151' [MissionScriptElement] 102402 from event_cafeteria_chopper
+ 
 'trigger_area_047' [ElementAreaTrigger] 102341 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
@@ -3775,11 +3785,10 @@
 	When counter target 3 is reached, perform:
 		Execute element 'logic_counter_001' [ElementCounter] 100361 from event_globe_window	(DELAY 3)
  
-'ai_enemy_trigger_088' [ElementEnemyDummyTrigger] 102383 from event_cafeteria_chopper
+'ai_enemy_trigger_080' [ElementEnemyDummyTrigger] 103553 from default
 	If event 'spawn' gets executed by any of:
-		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_018'
+		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_118'
 	Then perform:
-		Execute element 'logic_link_151' [MissionScriptElement] 102402 from event_cafeteria_chopper
  
 'trigger_area_012' [ElementAreaTrigger] 102565 from default
 	[INITIAL TRIGGER TIMES: 1]
@@ -4310,6 +4319,9 @@
 	If event 'spawn' gets executed by any of:
 		1) {units/characters/enemies/swat/swat} from element 'ai_spawn_enemy_169'
 	Then perform:
+		Run sequence 'make_dynamic' on unit 104091 {units/world/props/bank/bank_vent/bank_vent_cover} at (3880, -1149, -434.41799926758) 
+		Delete 1 unit by ID	(DELAY 3)
+			1) Delete unit 104091 {units/world/props/bank/bank_vent/bank_vent_cover} at position (3880, -1149, -434.41799926758)
  
 'logic_link_008' [MissionScriptElement] 100615 from event_globe_chopper
 	Run sequence 'destroy' on unit 104513 {units/world/architecture/bank/bank_window/bank_window_kitchen} at (-1389, 2639, 1460.0400390625) 

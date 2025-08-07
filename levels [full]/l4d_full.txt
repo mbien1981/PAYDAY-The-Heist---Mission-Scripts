@@ -3661,6 +3661,8 @@
 		Enable gathering point for 2 enemies at position (-1200, 2125, 25)
 		Complete objective 'hospital_ICU' at position (-1125, 1300, 50) 
 		Remove waypoint with text 'Get into the ICU' and icon wp_saw from (-1202, 1378, 174) 
+		Run sequence 'descend' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 
+		Run sequence 'stop' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 	(DELAY 0.1)
 		Execute element 'spawnFemaleDoctor' [MissionScriptElement] 700508 from default
 		Remove waypoint with text 'Get into the ICU' and icon wp_standard from (-1200, 2125, 175) 
 		Execute element 'ICUcivilianActivities' [MissionScriptElement] 700539 from default
@@ -5346,6 +5348,8 @@
 		Enable gathering point for 2 enemies at position (-1200, 2125, 25)
 		Complete objective 'hospital_ICU' at position (-1125, 1300, 50) 
 		Remove waypoint with text 'Get into the ICU' and icon wp_saw from (-1202, 1378, 174) 
+		Run sequence 'descend' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 
+		Run sequence 'stop' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 	(DELAY 0.1)
 		Play dialogue 'hos_ban_071'	(DELAY 1)
 		Remove waypoint with text 'Get into the ICU' and icon wp_saw from (-1202, 1378, 174) 
 		Add waypoint with text 'Get into the ICU' and icon wp_standard at (-1200, 2125, 175) 
@@ -5378,6 +5382,9 @@
 'alarmRelay001' [MissionScriptElement] 700540 from default
 	Execute element 'alarmRelay' [MissionScriptElement] 700046 from default
 	Toggle OFF element 'ICUcivilianActivities' [MissionScriptElement] 700539 from default
+	Toggle OFF element 'redWireCut' [ElementUnitSequenceTrigger] 700553 from default
+	Toggle OFF element 'greenWireCut' [ElementUnitSequenceTrigger] 700555 from default
+	Toggle OFF element 'blueWireCut' [ElementUnitSequenceTrigger] 700557 from default
  
 'trigger_area_038' [ElementAreaTrigger] 702077 from default
 	[INITIALLY DISABLED]
@@ -5842,6 +5849,9 @@
 	Run sequence 'hide' on unit 702106 {units/dev_tools/contour_blocker/contour_blocker} at (-2113, 1675, -84) 
 	Run sequence 'hide' on unit 702430 {units/dev_tools/contour_blocker/contour_blocker} at (-3063, -3325, -84) 
 	Execute element 'PAloop' [MissionScriptElement] 702342 from default
+	Perform 'elevatorHiderStuff': 	(DELAY 1)
+		Run sequence 'descend' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 
+		Run sequence 'stop' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 	(DELAY 0.1)
  
 'doneComplete001' [ElementUnitSequenceTrigger] 701331 from default
 	If any of the following sequences get triggered:
@@ -14780,6 +14790,8 @@
 	Enable gathering point for 2 enemies at position (-1200, 2125, 25)
 	Complete objective 'hospital_ICU' at position (-1125, 1300, 50) 
 	Remove waypoint with text 'Get into the ICU' and icon wp_saw from (-1202, 1378, 174) 
+	Run sequence 'descend' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 
+	Run sequence 'stop' on unit 101877 {units/world/architecture/hospital/props/elevator_display/elevator_display} at (-2233, 2988, 200.08099365234) 	(DELAY 0.1)
  
 'ai_spawn_enemy_030' [ElementSpawnEnemyDummy] 700795 from default
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (2300, -825, 350.08401489258) with rotation (-0, 0, 0)
@@ -14880,6 +14892,9 @@
  
 'alarmHasGoneOffRelaykiller' [ElementToggle] 700541 from default
 	Toggle OFF element 'ICUcivilianActivities' [MissionScriptElement] 700539 from default
+	Toggle OFF element 'redWireCut' [ElementUnitSequenceTrigger] 700553 from default
+	Toggle OFF element 'greenWireCut' [ElementUnitSequenceTrigger] 700555 from default
+	Toggle OFF element 'blueWireCut' [ElementUnitSequenceTrigger] 700557 from default
  
 'ai_spawn_enemy_032' [ElementSpawnEnemyDummy] 700797 from default
 	Spawn enemy unit {units/characters/enemies/swat/swat} at position (1750, -175, 350.08401489258) with rotation (-0, 0, -90)
