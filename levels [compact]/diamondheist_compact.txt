@@ -240,9 +240,13 @@
 'trigger_area_019' [ElementAreaTrigger] 100294 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-525, -1650, 1154.3299560547)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-525, -1650, 1154.3299560547) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_3 around position (-6575, 650, 1250) with radius 10000 with action AI_escort
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5950, -3200, 375) 
@@ -261,9 +265,13 @@
 'trigger_area_026' [ElementAreaTrigger] 100390 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3929.330078125 x 535 x 1661.2600097656 at position (-3350, -4650, -25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3929.330078125 x 535 x 1661.2600097656 at position (-3350, -4650, -25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_128_vault_event' [MissionScriptElement] 100837 from default
 		Toggle ON element 'trigger_area_059' [ElementAreaTrigger] 101729 from default	(DELAY 60)
 		Toggle ON element 'trigger_area_068' [ElementAreaTrigger] 102001 from default	(DELAY 60)
@@ -283,9 +291,13 @@
 'trigger_area_041' [ElementAreaTrigger] 100934 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 141.21499633789 x 500 x 141.21499633789 at position (-75, -2500, 775.0009765625)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 141.21499633789 x 500 x 141.21499633789 at position (-75, -2500, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-76.720703125, -2517.4599609375, 775.0009765625) with radius 100 with action so_husk_hiding4
  
 'func_sequence_trigger_076' [ElementUnitSequenceTrigger] 100966 from default
@@ -333,9 +345,13 @@
 'trigger_area_057' [ElementAreaTrigger] 101222 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2625, 1700, 244.02099609375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2625, 1700, 244.02099609375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'trigger_area_005' [ElementAreaTrigger] 100361 from default
 		Spawn civilian unit {units/characters/civilians/escort_guy_3/escort_guy_3} at position (-2850, 1250, 244.02099609375) with rotation (-0, 0, 0)
  
@@ -364,9 +380,13 @@
 'alarm_box_area2' [ElementAreaTrigger] 101542 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1059.2900390625 x 370 x 839.29998779297 at position (-1853, -4717, 1218.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1059.2900390625 x 370 x 839.29998779297 at position (-1853, -4717, 1218.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_12_2' [ElementTeammateComment] 101560 from default
 			2) 'dia_13_2' [ElementTeammateComment] 101561 from default
@@ -459,9 +479,13 @@
 'trigger_area_005_escort1' [ElementAreaTrigger] 100199 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1503.4000244141 x 1002.6699829102 x 1491.8000488281 at position (-5625, -2375, 1687.5)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1503.4000244141 x 1002.6699829102 x 1491.8000488281 at position (-5625, -2375, 1687.5) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Escort' and icon wp_standard from (-5550, -2475, 1412.5) 
 		Execute element 'logic_link_032' [MissionScriptElement] 100276 from default
 		Create objective for escort_guy_4 around position (-5610, -2385.8701171875, 1387.5) with radius 1250 with action so_wait_chopper
@@ -472,9 +496,13 @@
 'trigger_area_020' [ElementAreaTrigger] 100295 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-600, -3050, 400)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-600, -3050, 400) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_3 around position (-6575, 425, 1250) with radius 10000 with action AI_escort
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5950, -3200, 375) 
@@ -546,9 +574,13 @@
 'trigger_area_042' [ElementAreaTrigger] 100935 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 145.06199645996 x 464.55200195313 x 174.3390045166 at position (-525, -2450, 775.0009765625)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 145.06199645996 x 464.55200195313 x 174.3390045166 at position (-525, -2450, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-520.66198730469, -2461.6999511719, 775.0009765625) with radius 100 with action so_husk_hiding4
  
 'func_sequence_trigger_077' [ElementUnitSequenceTrigger] 100967 from default
@@ -612,9 +644,13 @@
 'alarm_box_area3' [ElementAreaTrigger] 101543 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 612 x 260 x 640 at position (-4896, -2256, 898.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 612 x 260 x 640 at position (-4896, -2256, 898.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_12_3' [ElementTeammateComment] 101562 from default
 			2) 'dia_13_3' [ElementTeammateComment] 101563 from default
@@ -653,9 +689,13 @@
 'trigger_area_061' [ElementAreaTrigger] 101799 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4032.1201171875 x 170 x 500 at position (-3275, -1625, 254)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4032.1201171875 x 170 x 500 at position (-3275, -1625, 254) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g02'
 		Make teammates close to instigator say 'g13'	(DELAY 1.5)
  
@@ -720,9 +760,13 @@
 'trigger_area_043' [ElementAreaTrigger] 100936 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 174.3390045166 x 500 x 174.3390045166 at position (-182, -2227, 775)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 174.3390045166 x 500 x 174.3390045166 at position (-182, -2227, 775) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-173.1309967041, -2219.7600097656, 775.0009765625) with radius 100 with action so_husk_hiding2
  
 'logic_link_135_static_guards' [MissionScriptElement] 101064 from default
@@ -765,7 +809,7 @@
 		Execute element 'logic_counter_010' [ElementCounter] 101259 from prefereds
  
 'logic_counter_003' [ElementCounter] 101256 from default
-	When counter target 1 is reached, perform:
+	When counter target 3 is reached, perform:
 		Complete objective 'diamond_sec_doors' at position (-3275, 2575, 3475) 
 		Play dialogue 'dia_ban_57x_any'	(DELAY 4)
 		Execute at random 1 of the following elements:	(DELAY 10)
@@ -795,9 +839,13 @@
 'alarm_box_area4' [ElementAreaTrigger] 101544 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 997.34301757813 x 260 x 608.17498779297 at position (-3440.5200195313, -3140.1201171875, 903.81402587891)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 997.34301757813 x 260 x 608.17498779297 at position (-3440.5200195313, -3140.1201171875, 903.81402587891) rotation (-0, 0, -9.6719160079956)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_13_4' [ElementTeammateComment] 101567 from default
 			2) 'dia_12_4' [ElementTeammateComment] 101566 from default
@@ -840,9 +888,13 @@
 'trigger_area_021' [ElementAreaTrigger] 100297 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 725 x 500 x 500 at position (-5902, -3175, 625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 725 x 500 x 500 at position (-5902, -3175, 625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5950, -3200, 375) 
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Execute element 'ralph_found' [MissionScriptElement] 101710 from default
@@ -850,9 +902,13 @@
 'trigger_area_005' [ElementAreaTrigger] 100361 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1849.4300537109 x 545 x 2047.4699707031 at position (-3350, 1200, 362.5)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1849.4300537109 x 545 x 2047.4699707031 at position (-3350, 1200, 362.5) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Print debug string 'coming in!'
 		Run sequence 'flyin_fwd_hover' on unit 100365 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-3300, 1100, 317.02099609375) 
 		Run sequence 'nypd' on unit 100365 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-3300, 1100, 317.02099609375) 	(DELAY 1)
@@ -873,9 +929,13 @@
 'trigger_area_028' [ElementAreaTrigger] 100489 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3056.25 x 500 x 3076.3601074219 at position (-3300, -2389, 104.26999664307)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3056.25 x 500 x 3076.3601074219 at position (-3300, -2389, 104.26999664307) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'dia_32'
  
 'logic_link_066' [MissionScriptElement] 100585 from heli_drops
@@ -914,9 +974,13 @@
 'trigger_area_044' [ElementAreaTrigger] 100937 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 141.21499633789 x 500 x 174.3390045166 at position (-200, -2925, 775.0009765625)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 141.21499633789 x 500 x 174.3390045166 at position (-200, -2925, 775.0009765625) rotation (-0, -0, 44.999935150146)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-372.57998657227, -2893.2800292969, 775.0009765625) with radius 100 with action so_husk_hiding4
  
 'func_sequence_trigger_161' [ElementUnitSequenceTrigger] 100969 from prefereds
@@ -992,9 +1056,13 @@
 'alarm_box_area5' [ElementAreaTrigger] 101545 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 790.51898193359 x 325 x 557.68499755859 at position (-5626, -5181, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 790.51898193359 x 325 x 557.68499755859 at position (-5626, -5181, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_14_5' [ElementTeammateComment] 101571 from default
 			2) 'dia_12_5' [ElementTeammateComment] 101569 from default
@@ -1028,9 +1096,13 @@
 'trigger_area_073' [ElementAreaTrigger] 102249 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 240.5 x 636.65002441406 at position (-6430, -2710, 1249)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 240.5 x 636.65002441406 at position (-6430, -2710, 1249) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 4s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-6538, -2553, 1200)
 		Perform 'env_effect_stop_019':	(DELAY 12)
 			Stop effect {effects/particles/explosions/smoke_grenade_smoke} with fade-out
@@ -1075,9 +1147,13 @@
 'trigger_area_045' [ElementAreaTrigger] 100938 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 174.3390045166 x 500 x 168.04600524902 at position (-3750, -5150, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 174.3390045166 x 500 x 168.04600524902 at position (-3750, -5150, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-3790.8000488281, -5304.4301757813, 375) with radius 100 with action so_husk_hiding4
  
 'func_sequence_trigger_162' [ElementUnitSequenceTrigger] 100970 from prefereds
@@ -1216,9 +1292,13 @@
 'alarm_box_area6' [ElementAreaTrigger] 101546 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 532.85998535156 x 500 x 328.04998779297 at position (-5013, -3303, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 532.85998535156 x 500 x 328.04998779297 at position (-5013, -3303, 375) rotation (-0, 0, -15.109321594238)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_12_6' [ElementTeammateComment] 101573 from default
 			2) 'dia_13_6' [ElementTeammateComment] 101572 from default
@@ -1269,17 +1349,25 @@
 'trigger_area_046' [ElementAreaTrigger] 100939 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 133.44500732422 x 500 x 174.3390045166 at position (-3334, -5333, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 133.44500732422 x 500 x 174.3390045166 at position (-3334, -5333, 375) rotation (-0, 0, -54.180572509766)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-3146.7800292969, -5320.5600585938, 375) with radius 100 with action so_husk_hiding3
  
 'trigger_area_053' [ElementAreaTrigger] 100971 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 110.13500213623 x 500 x 141.21499633789 at position (-300, 1400, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 110.13500213623 x 500 x 141.21499633789 at position (-300, 1400, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-296.81698608398, 1381.0699462891, 375) with radius 100 with action so_husk_hiding2
  
 'func_sequence_trigger_105' [ElementUnitSequenceTrigger] 101099 from default
@@ -1346,9 +1434,13 @@
 'alarm_box_area7' [ElementAreaTrigger] 101547 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 629.09197998047 x 500 x 451.51098632813 at position (-3944.5100097656, -2908.5400390625, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 629.09197998047 x 500 x 451.51098632813 at position (-3944.5100097656, -2908.5400390625, 375) rotation (-0, 0, -18.956125259399)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_14_7' [ElementTeammateComment] 101577 from default
 			2) 'dia_13_7' [ElementTeammateComment] 101578 from default
@@ -1374,9 +1466,13 @@
 'trigger_area_062_igotit' [ElementAreaTrigger] 101803 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3991.1398925781, -2956.0600585938, 437)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3991.1398925781, -2956.0600585938, 437) rotation (-0, 0, -27.462604522705)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'func_sequence_trigger_144' [ElementUnitSequenceTrigger] 101899 from prefereds
@@ -1416,17 +1512,25 @@
 'trigger_area_047' [ElementAreaTrigger] 100940 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 114.38400268555 x 500 x 168.04600524902 at position (-2825, -5350, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 114.38400268555 x 500 x 168.04600524902 at position (-2825, -5350, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-2814.5, -5347.8999023438, 375) with radius 100 with action so_husk_hiding3
  
 'trigger_area_054' [ElementAreaTrigger] 100972 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 136.11700439453 x 500 x 174.3390045166 at position (-1175, 1025, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 136.11700439453 x 500 x 174.3390045166 at position (-1175, 1025, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-1167.5799560547, 1023.6699829102, 375) with radius 100 with action so_husk_hiding4
  
 'func_sequence_trigger_106' [ElementUnitSequenceTrigger] 101100 from default
@@ -1486,9 +1590,13 @@
 'trigger_area_063_igotit' [ElementAreaTrigger] 101804 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-4950, -3400, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-4950, -3400, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'logic_link_017' [MissionScriptElement] 101932 from default
@@ -1507,9 +1615,13 @@
 'trigger_area_067' [ElementAreaTrigger] 102188 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 842.57897949219 x 500 x 1162.7600097656 at position (-5125, -4400, 451.84201049805)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 842.57897949219 x 500 x 1162.7600097656 at position (-5125, -4400, 451.84201049805) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_209' [MissionScriptElement] 102182 from default
  
 'trigger_special_objective_023' [ElementSpecialObjectiveTrigger] 102444 from prefereds
@@ -1550,9 +1662,13 @@
 'trigger_area_048' [ElementAreaTrigger] 100941 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 174.3390045166 x 500 x 174.3390045166 at position (-3500, -4925, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 174.3390045166 x 500 x 174.3390045166 at position (-3500, -4925, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-3385.1599121094, -5188.1401367188, 375) with radius 100 with action so_husk_hiding3
  
 'func_sequence_trigger_083' [ElementUnitSequenceTrigger] 100973 from default
@@ -1643,9 +1759,13 @@
 'trigger_area_064_igotit' [ElementAreaTrigger] 101805 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 380 x 500 at position (-5625, -5250, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 380 x 500 at position (-5625, -5250, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'logic_link_018' [MissionScriptElement] 101933 from default
@@ -1727,9 +1847,13 @@
 'trigger_area_049' [ElementAreaTrigger] 100942 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 141.21499633789 x 500 x 174.3390045166 at position (-6525, -1900, 800)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 141.21499633789 x 500 x 174.3390045166 at position (-6525, -1900, 800) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-6493.8798828125, -1902.3000488281, 775.0009765625) with radius 100 with action so_husk_hiding3
  
 'func_sequence_trigger_084' [ElementUnitSequenceTrigger] 100974 from default
@@ -1819,9 +1943,13 @@
 'trigger_area_065_igotit' [ElementAreaTrigger] 101806 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 555 x 500 x 500 at position (-3425, -3125, 775.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 555 x 500 x 500 at position (-3425, -3125, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'logic_link_160' [MissionScriptElement] 101870 from heli_drops
@@ -1846,9 +1974,13 @@
 'trigger_area_022' [ElementAreaTrigger] 100303 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-909, -2260, 1025)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-909, -2260, 1025) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-950, -2200, 775.0009765625) 
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Execute element 'ralph_found' [MissionScriptElement] 101710 from default
@@ -1941,9 +2073,13 @@
 'trigger_area_066_igotit' [ElementAreaTrigger] 101807 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 330 x 500 at position (-4925, -2175, 925.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 330 x 500 at position (-4925, -2175, 925.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'logic_link_020' [MissionScriptElement] 101935 from default
@@ -1951,9 +2087,13 @@
 'trigger_area_069' [ElementAreaTrigger] 102063 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1888.8299560547 x 500 x 1276.8000488281 at position (-5434, 150, 775.0009765625)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1888.8299560547 x 500 x 1276.8000488281 at position (-5434, 150, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 4s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'dia_ban_121_any'
  
 'logic_link_144' [MissionScriptElement] 102095 from prefereds
@@ -2045,9 +2185,13 @@
 'trigger_area_055' [ElementAreaTrigger] 100976 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 141.21499633789 x 500 x 141.21499633789 at position (-900, 1375, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 141.21499633789 x 500 x 141.21499633789 at position (-900, 1375, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-898.88702392578, 1389.8299560547, 375) with radius 100 with action so_husk_hiding3
  
 'this_will_be_pointofnoreturn' [MissionScriptElement] 101040 from escape
@@ -2140,9 +2284,13 @@
 'trigger_area_067_igotit' [ElementAreaTrigger] 101808 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 785 at position (-1775, -4750, 1275)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 785 at position (-1775, -4750, 1275) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'logic_link_021' [MissionScriptElement] 101936 from default
@@ -2184,9 +2332,13 @@
 'trigger_area_006' [ElementAreaTrigger] 100209 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 915.59997558594 x 215 x 576.89398193359 at position (-2196.419921875, -2828.580078125, 878.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 915.59997558594 x 215 x 576.89398193359 at position (-2196.419921875, -2828.580078125, 878.0009765625) rotation (-0, -0, 44.999935150146)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_028' [MissionScriptElement] 100227 from default
 		Toggle OFF element 'logic_link_027' [MissionScriptElement] 100226 from default
 		Toggle OFF element 'logic_link_026' [MissionScriptElement] 100225 from default
@@ -2310,17 +2462,25 @@
 'trigger_area_068_igotit' [ElementAreaTrigger] 101809 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 325 x 215.23399353027 x 368 at position (-1225, -2256, 475)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 325 x 215.23399353027 x 368 at position (-1225, -2256, 475) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'trigger_area_068' [ElementAreaTrigger] 102001 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 685 x 500 x 500 at position (-4200, -4600, -197.79499816895)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 685 x 500 x 500 at position (-4200, -4600, -197.79499816895) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'dia_33'
  
 'logic_link_146' [MissionScriptElement] 102033 from default
@@ -2339,9 +2499,13 @@
 'trigger_area_007' [ElementAreaTrigger] 100210 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 570 x 430 x 500 at position (-2706, -4370, 975.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 570 x 430 x 500 at position (-2706, -4370, 975.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_025' [MissionScriptElement] 100224 from default
 		Toggle OFF element 'logic_link_026' [MissionScriptElement] 100225 from default
 		Toggle OFF element 'logic_link_027' [MissionScriptElement] 100226 from default
@@ -2372,9 +2536,13 @@
 'trigger_area_026_escort2' [ElementAreaTrigger] 100338 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2392.7199707031 x 500 x 1457.1500244141 at position (-6095, -2387, 1462.5)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2392.7199707031 x 500 x 1457.1500244141 at position (-6095, -2387, 1462.5) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_3 around position (-6025, -2550, 1388.6600341797) with radius 5000 with action so_wait_chopper
 		Execute element 'logic_link_039_escort2_in_area' [MissionScriptElement] 100340 from default
 		Play dialogue 'dia_ban_63x_any'	(DELAY 2)
@@ -2494,7 +2662,7 @@
 		2) 'dia_72' [ElementTeammateComment] 101873 from escape
  
 'logic_link_191' [MissionScriptElement] 101970 from default
-	Execute at random 6 of the following elements:
+	Execute at random 3 of the following elements:
 		1) 'alarm_box7' [ElementUnitSequence] 101183 from default
 		2) 'alarm_box6' [ElementUnitSequence] 101185 from default
 		3) 'alarm_box5' [ElementUnitSequence] 101186 from default
@@ -2526,9 +2694,13 @@
 'trigger_area_008' [ElementAreaTrigger] 100211 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 795 x 430 x 285 at position (-500, -3750, 950)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 795 x 430 x 285 at position (-500, -3750, 950) rotation (-0, 0, -90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_025' [MissionScriptElement] 100224 from default
 		Toggle OFF element 'logic_link_026' [MissionScriptElement] 100225 from default
 		Toggle OFF element 'logic_link_028' [MissionScriptElement] 100227 from default
@@ -2678,9 +2850,13 @@
 'trigger_area_009' [ElementAreaTrigger] 100212 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 233.74600219727 x 430 x 510 at position (-5000, 1150, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 233.74600219727 x 430 x 510 at position (-5000, 1150, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_025' [MissionScriptElement] 100224 from default
 		Toggle OFF element 'logic_link_027' [MissionScriptElement] 100226 from default
 		Toggle OFF element 'logic_link_028' [MissionScriptElement] 100227 from default
@@ -2736,9 +2912,13 @@
 'trigger_area_029' [ElementAreaTrigger] 100660 from escape
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1423.9399414063 x 1002.6699829102 x 1193.1800537109 at position (-3325, 1350, 237.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1423.9399414063 x 1002.6699829102 x 1193.1800537109 at position (-3325, 1350, 237.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_087' [MissionScriptElement] 100669 from escape	(DELAY 2)
  
 'logic_link_089' [MissionScriptElement] 100692 from prefereds
@@ -2799,9 +2979,13 @@
 'trigger_area_056' [ElementAreaTrigger] 100980 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 141.21499633789 x 500 x 240.58799743652 at position (-1475, 1225, 375)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 141.21499633789 x 500 x 240.58799743652 at position (-1475, 1225, 375) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-1482.5899658203, 1242.6700439453, 375) with radius 100 with action so_husk_hiding2
  
 'logic_link_154' [MissionScriptElement] 101012 from default
@@ -2836,9 +3020,13 @@
 'trigger_area_058' [ElementAreaTrigger] 101620 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1167.2600097656 x 393.79998779297 x 1790.5999755859 at position (-3310, -1684, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1167.2600097656 x 393.79998779297 x 1790.5999755859 at position (-3310, -1684, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'dia_22'
  
 'logic_link_173' [MissionScriptElement] 101684 from default
@@ -2914,9 +3102,13 @@
 'trigger_area_010' [ElementAreaTrigger] 100213 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 430 x 500 at position (-2200, 815, 975)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 430 x 500 at position (-2200, 815, 975) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_4 around position (-2250, 650, 375) with radius 10000 with action AI_escort
 		Toggle OFF element 'logic_link_025' [MissionScriptElement] 100224 from default
 		Toggle OFF element 'logic_link_026' [MissionScriptElement] 100225 from default
@@ -2951,9 +3143,13 @@
 'trigger_area_030' [ElementAreaTrigger] 100661 from escape
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1002.6699829102 x 500 x 1419.8800048828 at position (-175, 25, 1350)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1002.6699829102 x 500 x 1419.8800048828 at position (-175, 25, 1350) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_087' [MissionScriptElement] 100669 from escape	(DELAY 2)
  
 'logic_link_090' [MissionScriptElement] 100693 from prefereds
@@ -3043,9 +3239,13 @@
 'trigger_area_062' [ElementAreaTrigger] 101941 from escape
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1419.8800048828 x 500 x 500 at position (-3300, -1825, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1419.8800048828 x 500 x 500 at position (-3300, -1825, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove element 'point_special_objective_125_def' [ElementSpecialObjective] 101919 from escape
 		Remove element 'point_special_objective_126_snpr' [ElementSpecialObjective] 101920 from escape
 		Remove element 'point_special_objective_127_snpr' [ElementSpecialObjective] 101921 from escape
@@ -3056,9 +3256,13 @@
  
 'trigger_area_063' [ElementAreaTrigger] 101973 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1143.9000244141 x 307.10000610352 x 500 at position (-5575, -1575, 925.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1143.9000244141 x 307.10000610352 x 500 at position (-5575, -1575, 925.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'trigger_area_066' [ElementAreaTrigger] 101976 from default
 		Toggle OFF element 'trigger_area_063' [ElementAreaTrigger] 101973 from default
 		Toggle OFF element 'trigger_area_064' [ElementAreaTrigger] 101974 from default
@@ -3075,9 +3279,13 @@
 'trigger_area_070' [ElementAreaTrigger] 102069 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1419.8800048828 x 500 x 1193.1800537109 at position (-725, -2450, 775.0009765625)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1419.8800048828 x 500 x 1193.1800537109 at position (-725, -2450, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'dia_ban_120_any'
  
 'logic_counter_021' [ElementCounter] 102101 from prefereds
@@ -3126,9 +3334,13 @@
 'trigger_area_031' [ElementAreaTrigger] 100662 from escape
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1689.6600341797 x 708.04998779297 x 1689.6600341797 at position (-5675, -2425, 1712.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1689.6600341797 x 708.04998779297 x 1689.6600341797 at position (-5675, -2425, 1712.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_087' [MissionScriptElement] 100669 from escape	(DELAY 2)
  
 'logic_link_091' [MissionScriptElement] 100694 from prefereds
@@ -3266,9 +3478,13 @@
  
 'trigger_area_064' [ElementAreaTrigger] 101974 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1442.4399414063 x 500 x 985 at position (-3275, -650, 525)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1442.4399414063 x 500 x 985 at position (-3275, -650, 525) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'trigger_area_066' [ElementAreaTrigger] 101976 from default
 		Toggle OFF element 'trigger_area_063' [ElementAreaTrigger] 101973 from default
 		Toggle OFF element 'trigger_area_064' [ElementAreaTrigger] 101974 from default
@@ -3347,9 +3563,13 @@
 'trigger_area_032' [ElementAreaTrigger] 100663 from escape
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1002.6699829102 x 500 x 1193.1800537109 at position (-6325, -400, 1350)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1002.6699829102 x 500 x 1193.1800537109 at position (-6325, -400, 1350) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_087' [MissionScriptElement] 100669 from escape	(DELAY 2)
  
 'logic_link_099' [MissionScriptElement] 100759 from prefereds
@@ -3401,9 +3621,13 @@
  
 'trigger_area_065' [ElementAreaTrigger] 101975 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 690 x 350 x 500 at position (-3425, -2525, 925.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 690 x 350 x 500 at position (-3425, -2525, 925.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'trigger_area_066' [ElementAreaTrigger] 101976 from default
 		Toggle OFF element 'trigger_area_063' [ElementAreaTrigger] 101973 from default
 		Toggle OFF element 'trigger_area_064' [ElementAreaTrigger] 101974 from default
@@ -3414,9 +3638,13 @@
 'trigger_area_071' [ElementAreaTrigger] 102071 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1689.6600341797 x 500 x 1193.1800537109 at position (-3200, -4900, 775.0009765625)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1689.6600341797 x 500 x 1193.1800537109 at position (-3200, -4900, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'dia_ban_119_any'
  
 'logic_link_212' [MissionScriptElement] 102199 from default
@@ -3459,9 +3687,13 @@
 'trigger_area_001' [ElementAreaTrigger] 100024 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1314.4200439453 x 842.57897949219 x 842.57897949219 at position (-900, 1025, 675)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1314.4200439453 x 842.57897949219 x 842.57897949219 at position (-900, 1025, 675) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
 		Execute element 'logic_link_133' [MissionScriptElement] 100951 from default
 		Run sequence 'hide_outline' on unit 101487 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-730, 1370, 375) 
@@ -3591,9 +3823,13 @@
  
 'trigger_area_066' [ElementAreaTrigger] 101976 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1009.799987793 x 307.5 x 830 at position (-1152, -663, 525)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1009.799987793 x 307.5 x 830 at position (-1152, -663, 525) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'trigger_area_066' [ElementAreaTrigger] 101976 from default
 		Toggle OFF element 'trigger_area_063' [ElementAreaTrigger] 101973 from default
 		Toggle OFF element 'trigger_area_064' [ElementAreaTrigger] 101974 from default
@@ -3628,9 +3864,13 @@
 'trigger_area_002' [ElementAreaTrigger] 100025 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1070.0799560547 x 842.57897949219 x 842.57897949219 at position (-100, -2682, 1025)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1070.0799560547 x 842.57897949219 x 842.57897949219 at position (-100, -2682, 1025) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
 		Execute element 'logic_link_134' [MissionScriptElement] 101026 from default
 		Run sequence 'hide_outline' on unit 101488 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-150.20899963379, -2554, 780.99798583984) 
@@ -3747,9 +3987,13 @@
 'trigger_area_036' [ElementAreaTrigger] 101497 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 302.19900512695 x 203.39100646973 x 298.11999511719 at position (-6468, -2570, 791)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 302.19900512695 x 203.39100646973 x 298.11999511719 at position (-6468, -2570, 791) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Give instigator 1 of equipment 'glass_cutter' 
 		Run sequence 'hide_dummy' on unit 101486 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-6314.9301757813, -2570, 774.1259765625) 
  
@@ -3785,9 +4029,13 @@
 'trigger_area_003' [ElementAreaTrigger] 100026 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1238.5899658203 x 842.57897949219 x 842.57897949219 at position (-3250, -5000, 675)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1238.5899658203 x 842.57897949219 x 842.57897949219 at position (-3250, -5000, 675) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
 		Execute element 'logic_link_132' [MissionScriptElement] 100945 from default
 		Run sequence 'hide_outline' on unit 101489 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-3491.8200683594, -5291.6098632813, 376.31500244141) 
@@ -3822,9 +4070,13 @@
 'trigger_area_023' [ElementAreaTrigger] 100314 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 318.63299560547 x 275 x 716.14398193359 at position (-5675, -4865, 900)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 318.63299560547 x 275 x 716.14398193359 at position (-5675, -4865, 900) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5675, -4775, 775) 
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Execute element 'ralph_found' [MissionScriptElement] 101710 from default
@@ -3930,9 +4182,13 @@
 'trigger_area_037' [ElementAreaTrigger] 101498 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 256.27801513672 x 215.23399353027 x 247.56100463867 at position (-580, 1371, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 256.27801513672 x 215.23399353027 x 247.56100463867 at position (-580, 1371, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Give instigator 1 of equipment 'glass_cutter' 
 		Run sequence 'hide_dummy' on unit 101487 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-730, 1370, 375) 
  
@@ -3955,7 +4211,7 @@
 'kill_first_time_codes_on_145' [MissionScriptElement] 102298 from default
 	If the difficulty is {Overkill 145+} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:
 		Toggle OFF element 'logic_chance_operator_001' [ElementLogicChanceOperator] 102243 from default
-		Set the chance of the logic chance element 'logic_chance_001' to 100%
+		Set the chance of the logic chance element 'logic_chance_001' to 0%
  
 'logic_link_219' [MissionScriptElement] 102330 from default
 	Spawn enemy unit {units/characters/enemies/security/patrol_guard} at position (-350, -1600, 775.0009765625) with rotation (-0, -0, 90)
@@ -3982,9 +4238,13 @@
 'trigger_area_004' [ElementAreaTrigger] 100027 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 851.00500488281 x 842.57897949219 x 1162.7600097656 at position (-6300, -2250, 1075)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 851.00500488281 x 842.57897949219 x 1162.7600097656 at position (-6300, -2250, 1075) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
 		Execute element 'logic_link_130' [MissionScriptElement] 100930 from default
 		Run sequence 'hide_outline' on unit 101486 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-6314.9301757813, -2570, 774.1259765625) 
@@ -4000,9 +4260,13 @@
 'trigger_area_011' [ElementAreaTrigger] 100251 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2150, 700, 975)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2150, 700, 975) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'The CFO' and icon wp_standard from (-2300, 725, 775) 
 		Execute element 'logic_link_031' [MissionScriptElement] 100274 from default
 		Execute at random 1 of the following elements:
@@ -4012,9 +4276,13 @@
 'trigger_area_024' [ElementAreaTrigger] 100315 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 415 x 500 at position (-525, -1700, 1175)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 415 x 500 at position (-525, -1700, 1175) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-525, -1775, 1175) 
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Execute element 'ralph_found' [MissionScriptElement] 101710 from default
@@ -4084,9 +4352,13 @@
 'trigger_area_067_destroy_laseers' [ElementAreaTrigger] 101179 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2582.5100097656 x 620 x 1434.0799560547 at position (-3325, -1650, 295)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2582.5100097656 x 620 x 1434.0799560547 at position (-3325, -1650, 295) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_ban_38' [ElementDialogue] 101617 from default
 			2) 'dia_ban_37' [ElementDialogue] 101618 from default
@@ -4121,18 +4393,26 @@
 'trigger_area_038' [ElementAreaTrigger] 101499 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 294.89700317383 x 215.23399353027 x 263.25201416016 at position (-150, -2725, 787.53698730469)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 294.89700317383 x 215.23399353027 x 263.25201416016 at position (-150, -2725, 787.53698730469) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Give instigator 1 of equipment 'glass_cutter' 
 		Run sequence 'hide_dummy' on unit 101488 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-150.20899963379, -2554, 780.99798583984) 
  
 'dialogue_vault_trigger' [ElementAreaTrigger] 101627 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 5709.8901367188 x 500 x 842.57897949219 at position (-2725, -4600, -225)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 5709.8901367188 x 500 x 842.57897949219 at position (-2725, -4600, -225) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_163' [MissionScriptElement] 101629 from default
  
 'bain_voice_works_on_first_try' [MissionScriptElement] 101691 from default
@@ -4157,9 +4437,13 @@
 'trigger_area_012' [ElementAreaTrigger] 100252 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 381.34399414063 x 500 x 720 at position (-5000, 1100, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 381.34399414063 x 500 x 720 at position (-5000, 1100, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'The CFO' and icon wp_standard from (-5000, 1000, 375) 
 		Execute element 'logic_link_031' [MissionScriptElement] 100274 from default
 		Execute at random 1 of the following elements:
@@ -4169,9 +4453,13 @@
 'trigger_area_025' [ElementAreaTrigger] 100316 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-600, -3075, 500)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-600, -3075, 500) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-650, -2900, 375) 
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Execute element 'ralph_found' [MissionScriptElement] 101710 from default
@@ -4179,9 +4467,13 @@
 'trigger_area_027' [ElementAreaTrigger] 100412 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1193.1800537109 x 595 x 708.04998779297 at position (-3325, -2300, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1193.1800537109 x 595 x 708.04998779297 at position (-3325, -2300, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Print debug string 'use the console to activate the codes'
  
 'logic_link_055' [MissionScriptElement] 100444 from prefereds
@@ -4262,9 +4554,13 @@
 'trigger_area_039' [ElementAreaTrigger] 101500 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 293.72601318359 x 265.7200012207 x 254.53500366211 at position (-3350, -5250, 392.51800537109)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 293.72601318359 x 265.7200012207 x 254.53500366211 at position (-3350, -5250, 392.51800537109) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Give instigator 1 of equipment 'glass_cutter' 
 		Run sequence 'hide_dummy' on unit 101489 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-3491.8200683594, -5291.6098632813, 376.31500244141) 
  
@@ -4336,9 +4632,13 @@
 'trigger_area_013' [ElementAreaTrigger] 100253 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 885 x 500 x 260 at position (-464, -3775, 939.35302734375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 885 x 500 x 260 at position (-464, -3775, 939.35302734375) rotation (-0, 0, -90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'The CFO' and icon wp_standard from (-675, -3775, 775.0009765625) 
 		Execute element 'logic_link_031' [MissionScriptElement] 100274 from default
 		Execute at random 1 of the following elements:
@@ -4378,9 +4678,13 @@
  
 'trigger_area_033' [ElementAreaTrigger] 100861 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1419.8800048828 x 500 x 2010.6899414063 at position (-3300, -1625, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1419.8800048828 x 500 x 2010.6899414063 at position (-3300, -1625, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'trigger_special_objective_001_players_seen' [ElementSpecialObjectiveTrigger] 100069 from default
  
 'func_sequence_trigger_048' [ElementUnitSequenceTrigger] 100893 from default
@@ -4477,9 +4781,13 @@
 'trigger_area_062_imonit_area' [ElementAreaTrigger] 101853 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3563, -2152, 100)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3563, -2152, 100) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'func_sequence_trigger_140' [ElementUnitSequenceTrigger] 101885 from prefereds
@@ -4511,9 +4819,13 @@
 'trigger_area_014' [ElementAreaTrigger] 100254 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 590 x 500 x 295 at position (-2709, -4469, 975.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 590 x 500 x 295 at position (-2709, -4469, 975.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'The CFO' and icon wp_standard from (-2693, -4435, 775.0009765625) 
 		Execute element 'logic_link_031' [MissionScriptElement] 100274 from default
 		Execute at random 1 of the following elements:
@@ -4603,9 +4915,13 @@
 'trigger_area_015' [ElementAreaTrigger] 100255 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 860 x 305 x 500 at position (-2196.419921875, -2828.580078125, 922.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 860 x 305 x 500 at position (-2196.419921875, -2828.580078125, 922.0009765625) rotation (-0, -0, 44.999935150146)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'The CFO' and icon wp_standard from (-1825, -2925, 775) 
 		Execute element 'logic_link_031' [MissionScriptElement] 100274 from default
 		Execute at random 1 of the following elements:
@@ -4672,9 +4988,13 @@
 'trigger_area_050' [ElementAreaTrigger] 100959 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 133.30000305176 x 500 x 141.21499633789 at position (-6225, -2225, 800)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 133.30000305176 x 500 x 141.21499633789 at position (-6225, -2225, 800) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-6226.509765625, -2242.2099609375, 775.0009765625) with radius 100 with action so_husk_hiding4
  
 'logic_link_142' [MissionScriptElement] 101055 from default
@@ -4693,9 +5013,13 @@
 'trigger_area_060' [ElementAreaTrigger] 101791 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2847.3400878906 x 355 x 500 at position (-3308, -3752, 526)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2847.3400878906 x 355 x 500 at position (-3308, -3752, 526) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'dia_87'
 		Make teammates close to instigator say 'dia_87'
  
@@ -4810,9 +5134,13 @@
 'trigger_area_034' [ElementAreaTrigger] 101472 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-6412, -4550, -275)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-6412, -4550, -275) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'spawn_dummy' on unit 101495 {units/equipment/diamondheist_vaccum_glass_cutter/vaccum_glass_cutter} at (-6377, -4600, -305) 
 		Execute element 'logic_link_151' [MissionScriptElement] 101481 from default
 		Execute element 'bain_voice_on_how_to_get_to_red_diamond' [MissionScriptElement] 101762 from default
@@ -4910,9 +5238,13 @@
 'trigger_area_035' [ElementAreaTrigger] 101473 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 385 x 500 x 355 at position (-5151, -4647, -125)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 385 x 500 x 355 at position (-5151, -4647, -125) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Print debug string 'WTF IS THIS'
 		Make teammates close to instigator say 'dia_75'
 		Execute at random 1 of the following elements:	(DELAY 3)
@@ -4937,17 +5269,25 @@
 'trigger_area_059' [ElementAreaTrigger] 101729 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1144.3199462891 x 882.34899902344 x 924.9169921875 at position (-3313, -4375, -200)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1144.3199462891 x 882.34899902344 x 924.9169921875 at position (-3313, -4375, -200) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_176' [MissionScriptElement] 101727 from default
  
 'trigger_area_062_vault_wp_area' [ElementAreaTrigger] 101857 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1689.6600341797 x 500 x 1002.6699829102 at position (-3300, -1850, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1689.6600341797 x 500 x 1002.6699829102 at position (-3300, -1850, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Diamond vault' and icon wp_standard from (-3300, -1725, 29) 
 		Add waypoint with text 'The vault' and icon wp_standard at (-3400, -4625, -275) 
  
@@ -5031,9 +5371,13 @@
 'trigger_area_051' [ElementAreaTrigger] 100962 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 141.21499633789 x 500 x 141.21499633789 at position (-6481, -2505, 800)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 141.21499633789 x 500 x 141.21499633789 at position (-6481, -2505, 800) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-6514.740234375, -2506.6599121094, 775.0009765625) with radius 100 with action so_husk_hiding3
  
 'logic_link_134' [MissionScriptElement] 101026 from default
@@ -5115,9 +5459,13 @@
 'trigger_area_016' [ElementAreaTrigger] 100291 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 647.70001220703 x 505 x 648.54998779297 at position (-5872, -3192, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 647.70001220703 x 505 x 648.54998779297 at position (-5872, -3192, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_3 around position (-6600, 1300, 1250) with radius 10000 with action AI_escort
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5950, -3200, 375) 
@@ -5134,7 +5482,7 @@
 	Play dialogue 'dia_ban_75x_any'
  
 'logic_link_049_delay_for_dialoge_etc' [MissionScriptElement] 100419 from default
-	Roll the dice with 100% chance to succeed.
+	Roll the dice with 45% chance to succeed.
 	On success, perform:
 		Execute element 'logic_link_050' [MissionScriptElement] 100420 from default
 		Toggle OFF element 'logic_toggle_153' [ElementToggle] 102436 from default
@@ -5178,9 +5526,13 @@
 'trigger_area_052' [ElementAreaTrigger] 100963 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 114.38400268555 x 500 x 141.21499633789 at position (-6475, -2725, 775.0009765625)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 114.38400268555 x 500 x 141.21499633789 at position (-6475, -2725, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for instigator around position (-6480.4702148438, -2760.2399902344, 775.0009765625) with radius 100 with action so_husk_hiding4
  
 'ai_enemy_trigger_033' [ElementEnemyDummyTrigger] 101155 from prefereds
@@ -5271,9 +5623,13 @@
 'trigger_area_017' [ElementAreaTrigger] 100292 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-950, -2200, 775.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-950, -2200, 775.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_3 around position (-6575, 1125, 1250) with radius 10000 with action AI_escort
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5950, -3200, 375) 
@@ -5333,9 +5689,13 @@
 'trigger_area_040' [ElementAreaTrigger] 100932 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1140 x 500 x 500 at position (-4975, -1725, 1488.6600341797)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1140 x 500 x 500 at position (-4975, -1725, 1488.6600341797) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Spawn civilian unit {units/characters/civilians/escort_guy_3/escort_guy_3} at position (-5050, -3050, 1400) with rotation (-0, 0, -44.999935150146)
 		Toggle ON element 'trigger_area_026_escort2' [ElementAreaTrigger] 100338 from default
  
@@ -5392,9 +5752,13 @@
  
 'trigger_area_072' [ElementAreaTrigger] 102212 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1587.5999755859 x 375 x 2058 at position (-1128, -150, 959.0009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1587.5999755859 x 375 x 2058 at position (-1128, -150, 959.0009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'fake_alert' on unit 702338 {units/world/architecture/diamondheist/diamondheist_interior_window_01} at (-1715, -349.0029296875, 780) 
  
 'logic_link_215helipad_navlinks' [MissionScriptElement] 102244 from prefereds
@@ -5543,9 +5907,13 @@
 'trigger_area_018' [ElementAreaTrigger] 100293 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 564.63000488281 x 220 x 1066.75 at position (-5625, -4875, 875)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 564.63000488281 x 220 x 1066.75 at position (-5625, -4875, 875) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for escort_guy_3 around position (-6575, 850, 1250) with radius 10000 with action AI_escort
 		Execute element 'logic_link_039_escort2_found' [MissionScriptElement] 100337 from default
 		Remove waypoint with text 'Mr. Garnet's son' and icon wp_standard from (-5950, -3200, 375) 
@@ -5633,9 +6001,13 @@
 'alarm_box_area1' [ElementAreaTrigger] 101541 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 406.35000610352 x 310.20001220703 x 854.40002441406 at position (-1200, -2255, 375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 406.35000610352 x 310.20001220703 x 854.40002441406 at position (-1200, -2255, 375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'dia_13_1' [ElementTeammateComment] 101556 from default
 			2) 'dia_12_1' [ElementTeammateComment] 101557 from default
@@ -5657,9 +6029,13 @@
 'trigger_area_074' [ElementAreaTrigger] 102437 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 640 x 625 x 1283.5 at position (-3300, -3675, 50)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 640 x 625 x 1283.5 at position (-3300, -3675, 50) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		If the difficulty is {Easy, Normal, Hard, Overkill, Overkill 145+} and the player count is {3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:
 			Play effect {effects/particles/explosions/smoke_grenade_smoke} at position Vector3(-3300, -3150, 50)
 			If the difficulty is {Easy, Normal} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:

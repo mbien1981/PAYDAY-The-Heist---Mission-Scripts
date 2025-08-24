@@ -334,18 +334,26 @@
 'trigger_area_038' [ElementAreaTrigger] 101979 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 6794.759765625 x 500 x 2010.6899414063 at position (-5850, -22175, 6825)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 6794.759765625 x 500 x 2010.6899414063 at position (-5850, -22175, 6825) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g01'
 		Toggle ON element 'trigger_area_039' [ElementAreaTrigger] 101983 from default
  
 'trigger_area_043' [ElementAreaTrigger] 101995 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2010.6899414063 x 5709.8901367188 x 1689.6600341797 at position (-3325, -22200, 8295.48046875)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2010.6899414063 x 5709.8901367188 x 1689.6600341797 at position (-3325, -22200, 8295.48046875) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_098' [MissionScriptElement] 101997 from default
  
 'logic_link_006' [MissionScriptElement] 100124 from default
@@ -413,9 +421,13 @@
 'trigger_area_012' [ElementAreaTrigger] 101484 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1030 x 1214.7099609375 x 1871.2399902344 at position (-3450, -22200, 7715)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1030 x 1214.7099609375 x 1871.2399902344 at position (-3450, -22200, 7715) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'bri_ban_08x'
  
 'logic_link_087' [MissionScriptElement] 101692 from default
@@ -447,9 +459,13 @@
 'trigger_area_034' [ElementAreaTrigger] 101964 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2847.3400878906 x 1419.8800048828 x 1193.1800537109 at position (-1400, -24250, 6250)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2847.3400878906 x 1419.8800048828 x 1193.1800537109 at position (-1400, -24250, 6250) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'bri_42'
  
 'logic_link_007' [MissionScriptElement] 100125 from default
@@ -503,9 +519,13 @@
 'trigger_area_036' [ElementAreaTrigger] 100557 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2847.3400878906 x 842.57897949219 x 842.57897949219 at position (-1275, -32300, 5900)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2847.3400878906 x 842.57897949219 x 842.57897949219 at position (-1275, -32300, 5900) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'bri_47'
 		Play dialogue 'bri_ban_45'	(DELAY 5)
 		Remove element 'point_special_objective_122' [ElementSpecialObjective] 102321 from default
@@ -544,9 +564,13 @@
 'trigger_area_022' [ElementAreaTrigger] 101549 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 874.5 x 1769.4100341797 x 1534.5 at position (-3037, -47000, 3695)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 874.5 x 1769.4100341797 x 1534.5 at position (-3037, -47000, 3695) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		End the current level/mission with state 'success'	(DELAY 3)
 		Execute element 'logic_link_103' [MissionScriptElement] 100576 from default
  
@@ -576,9 +600,13 @@
 'trigger_area_030' [ElementAreaTrigger] 101933 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4032.1201171875 x 708.04998779297 x 1419.8800048828 at position (-1250, -16325, 6100)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4032.1201171875 x 708.04998779297 x 1419.8800048828 at position (-1250, -16325, 6100) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'trigger_area_031' [ElementAreaTrigger] 101936 from default
 		Play dialogue 'bri_ban_33'
 		Make teammates say 'bri_22'	(DELAY 5)
@@ -839,9 +867,13 @@
 'trigger_area_039' [ElementAreaTrigger] 101983 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 9622.0703125 x 500 x 2010.6899414063 at position (-5850, -22175, 6425)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 9622.0703125 x 500 x 2010.6899414063 at position (-5850, -22175, 6425) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'g06'
 		Toggle ON element 'trigger_area_040' [ElementAreaTrigger] 101986 from default
  
@@ -904,9 +936,13 @@
 'trigger_area_017' [ElementAreaTrigger] 101536 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4625.009765625 x 500 x 2010.6899414063 at position (-4600, -22200, 6400)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4625.009765625 x 500 x 2010.6899414063 at position (-4600, -22200, 6400) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'g02'
 		Execute at random 1 of the following elements:	(DELAY 2)
 			1) 'bri_ban_11' [ElementDialogue] 102107 from default
@@ -937,9 +973,13 @@
  
 'trigger_area_025' [ElementAreaTrigger] 101712 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1989.8299560547 x 500 x 500 at position (-650, -2675, 5660.2900390625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1989.8299560547 x 500 x 500 at position (-650, -2675, 5660.2900390625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Roll the dice with 35% chance to succeed.
 		On success, perform:
 			Execute element 'logic_link_105' [MissionScriptElement] 102253 from default
@@ -954,9 +994,13 @@
 'trigger_area_031' [ElementAreaTrigger] 101936 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2392.7199707031 x 1193.1800537109 x 2392.7199707031 at position (-2300, -22100, 6100)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2392.7199707031 x 1193.1800537109 x 2392.7199707031 at position (-2300, -22100, 6100) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'bri_23'
 		Toggle ON element 'trigger_area_032' [ElementAreaTrigger] 101939 from default
  
@@ -1062,17 +1106,25 @@
 'trigger_area_028' [ElementAreaTrigger] 101905 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3388.3400878906 x 708.04998779297 x 2392.7199707031 at position (-1450, -7375, 6025)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3388.3400878906 x 708.04998779297 x 2392.7199707031 at position (-1450, -7375, 6025) rotation (-0, -0, 12.19861125946)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'bri_04'
  
 'trigger_area_044' [ElementAreaTrigger] 102001 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4032.1201171875 x 1419.8800048828 x 842.57897949219 at position (-1400, -45250, 5700)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4032.1201171875 x 1419.8800048828 x 842.57897949219 at position (-1400, -45250, 5700) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'bri_48'
 		Execute at random 1 of the following elements:	(DELAY 3)
 			1) 'bri_ban_16' [ElementDialogue] 102111 from default
@@ -1085,9 +1137,13 @@
  
 'trigger_area_001' [ElementAreaTrigger] 100066 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1140 x 500 x 1193.1800537109 at position (-1900, -19400, 5778.8798828125)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1140 x 500 x 1193.1800537109 at position (-1900, -19400, 5778.8798828125) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_002' [MissionScriptElement] 100067 from default
 		Activate objective 'bridge_locate_convoy' at position (-2225, -19294, 5940.6401367188) 
 		Spawn 20 enemies in randomly picked spawn points from: 
@@ -1312,9 +1368,13 @@
 'trigger_area_013' [ElementAreaTrigger] 101506 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3929.330078125 x 1000 x 778.03802490234 at position (-1300, -29975, 6050)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3929.330078125 x 1000 x 778.03802490234 at position (-1300, -29975, 6050) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'disable_collision' on unit 102136 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-2277, -30175, 5676.9599609375) 
 		Run sequence 'disable_collision' on unit 102137 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-1777, -30175, 5676.9599609375) 
 		Run sequence 'disable_collision' on unit 102138 {units/dev_tools/level_tools/dev_collision_5m_netsync} at (-1277, -30175, 5676.9599609375) 
@@ -1332,9 +1392,13 @@
 'trigger_area_018' [ElementAreaTrigger] 101538 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4625.009765625 x 500 x 2010.6899414063 at position (-4600, -22200, 7079)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4625.009765625 x 500 x 2010.6899414063 at position (-4600, -22200, 7079) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'g05'
  
 'logic_link_068' [MissionScriptElement] 101570 from default
@@ -1364,9 +1428,13 @@
 'trigger_area_040' [ElementAreaTrigger] 101986 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 8085.7700195313 x 500 x 2010.6899414063 at position (-5850, -22175, 5900)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 8085.7700195313 x 500 x 2010.6899414063 at position (-5850, -22175, 5900) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'g07'
 		Toggle ON element 'trigger_area_041' [ElementAreaTrigger] 101988 from default
  
@@ -1399,18 +1467,26 @@
 'trigger_area_006' [ElementAreaTrigger] 100467 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3929.330078125 x 4905.2099609375 x 1539.5300292969 at position (-1525, -47450, 3500)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3929.330078125 x 4905.2099609375 x 1539.5300292969 at position (-1525, -47450, 3500) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Escape!' and icon wp_standard from (-1350, -47575, 5292.740234375) 
 		Add waypoint with text 'Escape!' and icon wp_standard at (-3250, -47100, 4473.2797851563) 
  
 'trigger_area_008' [ElementAreaTrigger] 100531 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3388.3400878906 x 1002.6699829102 x 2010.6899414063 at position (-1400, -17694, 6250)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3388.3400878906 x 1002.6699829102 x 2010.6899414063 at position (-1400, -17694, 6250) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Perform 'logic_operator_010': 	(DELAY 5)
 			Remove element 'func_scenario_event_005' [ElementScenarioEvent] 100521 from default
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action move_climbover_std at (-350, -25400, 5737.5)
@@ -1509,9 +1585,13 @@
 'trigger_area_027' [ElementAreaTrigger] 101843 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4032.1201171875 x 500 x 878.57702636719 at position (-1475, -9925, 6025)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4032.1201171875 x 500 x 878.57702636719 at position (-1475, -9925, 6025) rotation (-0, -0, 20.075275421143)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'bri_03'
 		Toggle ON element 'trigger_area_028' [ElementAreaTrigger] 101905 from default
  
@@ -1527,17 +1607,25 @@
 'trigger_area_026' [ElementAreaTrigger] 101875 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2774.7600097656 x 500 x 1419.8800048828 at position (-1775, -6625, 5916.5698242188)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2774.7600097656 x 500 x 1419.8800048828 at position (-1775, -6625, 5916.5698242188) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_092' [MissionScriptElement] 101871 from default
  
 'trigger_area_032' [ElementAreaTrigger] 101939 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 790 x 500 x 2549.9699707031 at position (-3442.9299316406, -22105.19921875, 6100)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 790 x 500 x 2549.9699707031 at position (-3442.9299316406, -22105.19921875, 6100) rotation (-0, -0, 20.98233795166)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'bri_25'
 		Toggle ON element 'trigger_area_033' [ElementAreaTrigger] 101941 from default
  
@@ -1550,16 +1638,24 @@
  
 'trigger_area_046' [ElementAreaTrigger] 102067 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2847.3400878906 x 1002.6699829102 x 1193.1800537109 at position (-1375, -14175, 5915.0400390625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2847.3400878906 x 1002.6699829102 x 1193.1800537109 at position (-1375, -14175, 5915.0400390625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'bri_ban_06'
  
 'trigger_area_002' [ElementAreaTrigger] 100068 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2904.5700683594 x 1180 x 6269.9702148438 at position (-1400, -8175, 5779.0297851563)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2904.5700683594 x 1180 x 6269.9702148438 at position (-1400, -8175, 5779.0297851563) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Convoy' and icon wp_standard from (-1375, -6625, 5918.4501953125) 
 		Complete objective 'bridge_locate_convoy' at position (-1550, -8175, 5779.0297851563) 
 		Activate objective 'bridge_get_hostage' at position (-1550, -8275, 5779.7700195313) 	(DELAY 1)
@@ -1615,9 +1711,13 @@
 'trigger_area_015' [ElementAreaTrigger] 100996 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3388.3400878906 x 2392.7199707031 x 4811.4399414063 at position (-1554, -43363, 5735.009765625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3388.3400878906 x 2392.7199707031 x 4811.4399414063 at position (-1554, -43363, 5735.009765625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove element 'func_scenario_event_008' [ElementScenarioEvent] 100847 from default
 		Make teammates close to instigator say 'g18'
 		Toggle ON element 'trigger_area_023' [ElementAreaTrigger] 101642 from default
@@ -1647,17 +1747,25 @@
 'trigger_area_037' [ElementAreaTrigger] 101508 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3300, -47250, 4575)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3300, -47250, 4575) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'g28'
  
 'trigger_area_019' [ElementAreaTrigger] 101540 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 5658.5200195313 x 500 x 500 at position (-559, -30528, 5875)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 5658.5200195313 x 500 x 500 at position (-559, -30528, 5875) rotation (-0, -0, 5.0153737068176)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.25s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g13'
  
 'ai_enemy_trigger_013' [ElementEnemyDummyTrigger] 101604 from default
@@ -1702,9 +1810,13 @@
 'trigger_area_035' [ElementAreaTrigger] 101972 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3200, -47125, 5125)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3200, -47125, 5125) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'trigger_area_037' [ElementAreaTrigger] 101508 from default
 		Toggle OFF element 'func_dialogue_002' [ElementDialogue] 102091 from default
 		Execute at random 1 of the following elements:
@@ -1715,9 +1827,13 @@
 'trigger_area_041' [ElementAreaTrigger] 101988 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 9884.240234375 x 500 x 2010.6899414063 at position (-5850, -22625, 5625)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 9884.240234375 x 500 x 2010.6899414063 at position (-5850, -22625, 5625) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'bri_ban_44'
  
 'func_sequence_trigger_003' [ElementUnitSequenceTrigger] 100245 from default
@@ -1809,9 +1925,13 @@
 'trigger_area_033' [ElementAreaTrigger] 101941 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2392.7199707031 x 245 x 1689.6600341797 at position (-3225, -22225, 7219)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2392.7199707031 x 245 x 1689.6600341797 at position (-3225, -22225, 7219) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'bri_ban_35'
 		Make teammates say 'bri_26'	(DELAY 4)
 		Print debug string 'MISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUEMISSING DIALOGUE'
@@ -1854,9 +1974,13 @@
 'trigger_area_007' [ElementAreaTrigger] 100486 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3489.9899902344 x 2010.6899414063 x 3920.8500976563 at position (-1400, -35530, 5770.0297851563)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3489.9899902344 x 2010.6899414063 x 3920.8500976563 at position (-1400, -35530, 5770.0297851563) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove element 'func_scenario_event_004' [ElementScenarioEvent] 100464 from default
 		Remove all preferred spawn points associated with 'ai_enemy_prefered_add_004' 
 		Add element 'func_scenario_event_008' [ElementScenarioEvent] 100847 from default
@@ -1880,9 +2004,13 @@
 'trigger_area_047_ponr' [ElementAreaTrigger] 101254 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1419.8800048828 x 6794.759765625 x 1193.1800537109 at position (-3350, -47375, 1250)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1419.8800048828 x 6794.759765625 x 1193.1800537109 at position (-3350, -47375, 1250) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_103' [MissionScriptElement] 100576 from default
  
 'ai_enemy_trigger_011' [ElementEnemyDummyTrigger] 101366 from default
@@ -1893,9 +2021,13 @@
  
 'trigger_area_016' [ElementAreaTrigger] 101526 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 6794.759765625 x 500 x 500 at position (-2825, -13450, 5975)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 6794.759765625 x 500 x 500 at position (-2825, -13450, 5975) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g19'
  
 'logic_link_071' [MissionScriptElement] 101606 from default
@@ -1971,9 +2103,13 @@
 'trigger_area_009' [ElementAreaTrigger] 100807 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4032.1201171875 x 1689.6600341797 x 2847.3400878906 at position (-1525, -21975, 6184.6098632813)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4032.1201171875 x 1689.6600341797 x 2847.3400878906 at position (-1525, -21975, 6184.6098632813) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove all preferred spawn points associated with 'ai_enemy_prefered_add_002' 
 		Create navigation link for enemies from position (-200, -22275, 6035.9501953125) to (-338.49499511719, -22249.30078125, 5759.2998046875) with action so_container_jumpdown
  
@@ -2057,9 +2193,13 @@
  
 'trigger_area_045' [ElementAreaTrigger] 102007 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3669.2299804688 x 842.57897949219 x 1474.5100097656 at position (-1500, -17200, 5794.1401367188)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3669.2299804688 x 842.57897949219 x 1474.5100097656 at position (-1500, -17200, 5794.1401367188) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g27'
 		Make teammates close to instigator say 'g18'	(DELAY 5)
  
@@ -2092,9 +2232,13 @@
 'trigger_area_005' [ElementAreaTrigger] 100456 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 6425.1401367188 x 2061.3798828125 x 19295.5 at position (-1400, -28958, 6049.8198242188)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 6425.1401367188 x 2061.3798828125 x 19295.5 at position (-1400, -28958, 6049.8198242188) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove all preferred spawn points associated with 'ai_enemy_prefered_add_003' 
 		Toggle ON element 'trigger_area_007' [ElementAreaTrigger] 100486 from default
 		Add preferred spawn point for {units/characters/enemies/swat/swat} with action so_crh_to_std at (-2300, -36450, 5553.3500976563)
@@ -2152,9 +2296,13 @@
 'trigger_area_010' [ElementAreaTrigger] 101480 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3018.1799316406 x 1689.6600341797 x 1775.3399658203 at position (-1100, -17900, 6250)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3018.1799316406 x 1689.6600341797 x 1775.3399658203 at position (-1100, -17900, 6250) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'logic_link_073' [MissionScriptElement] 101608 from default
 			2) 'logic_link_072' [MissionScriptElement] 101607 from default
@@ -2172,9 +2320,13 @@
 'trigger_area_024' [ElementAreaTrigger] 101672 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2525, -21550, 7275)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2525, -21550, 7275) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Spawn civilian unit {units/characters/civilians/escort_guy_2/escort_guy_2} at position (-3025, -22575, 7125) with rotation (-0, -0, 90)
 		Create objective for instigator around position (-2600, -22000, 7125) with action so_enter_ejectionchair
 		Print debug string 'Erik'
@@ -2266,9 +2418,13 @@
 'trigger_area_014' [ElementAreaTrigger] 100841 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3379.3200683594 x 500 x 1190.3499755859 at position (-1250, -30952, 5900)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3379.3200683594 x 500 x 1190.3499755859 at position (-1250, -30952, 5900) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Add element 'func_scenario_event_004' [ElementScenarioEvent] 100464 from default
 		Execute at random 11 of the following elements:
 			1) 'point_special_objective_100' [ElementSpecialObjective] 101917 from default
@@ -2312,9 +2468,13 @@
 'trigger_area_020' [ElementAreaTrigger] 101545 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1002.6699829102 x 500 x 1419.8800048828 at position (-2250, -47350, 5271.4399414063)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1002.6699829102 x 500 x 1419.8800048828 at position (-2250, -47350, 5271.4399414063) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g04'
  
 'func_sequence_trigger_015' [ElementUnitSequenceTrigger] 101641 from default
@@ -2357,9 +2517,13 @@
 'trigger_area_042' [ElementAreaTrigger] 101993 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3301.9599609375 x 708.04998779297 x 708.04998779297 at position (-1475, -36975, 5775)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3301.9599609375 x 708.04998779297 x 708.04998779297 at position (-1475, -36975, 5775) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'bri_ban_46'
 		Play dialogue 'bri_ban_15'	(DELAY 12)
 		Make teammates close to instigator say 'g18'	(DELAY 3)
@@ -2444,9 +2608,13 @@
 'trigger_area_011' [ElementAreaTrigger] 101482 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3388.3400878906 x 2392.7199707031 x 2392.7199707031 at position (-1350, -22125, 6250)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3388.3400878906 x 2392.7199707031 x 2392.7199707031 at position (-1350, -22125, 6250) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'bri_ban_07x'
 		Toggle ON element 'trigger_area_012' [ElementAreaTrigger] 101484 from default
  
@@ -2459,9 +2627,13 @@
 'trigger_area_023' [ElementAreaTrigger] 101642 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3252.8000488281 x 1193.1800537109 x 2097.1799316406 at position (-1475, -46550, 5705.7797851563)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3252.8000488281 x 1193.1800537109 x 2097.1799316406 at position (-1475, -46550, 5705.7797851563) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute at random 1 of the following elements:
@@ -2498,9 +2670,13 @@
 'trigger_area_029' [ElementAreaTrigger] 101930 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 3388.3400878906 x 595 x 1193.1800537109 at position (-1300, -13225, 6087.580078125)
-	Trigger instigator: escorts
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 3388.3400878906 x 595 x 1193.1800537109 at position (-1300, -13225, 6087.580078125) rotation (-0, 0, 0)
+	Trigger instigator type: escorts
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'trigger_area_030' [ElementAreaTrigger] 101933 from default
 		Play dialogue 'bri_ban_32'
 		Make teammates say 'bri_21'	(DELAY 4)
@@ -2519,9 +2695,13 @@
  
 'trigger_area_003' [ElementAreaTrigger] 100075 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2847.3400878906 x 2847.3400878906 x 2847.3400878906 at position (-1400, -11100, 6762.1298828125)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2847.3400878906 x 2847.3400878906 x 2847.3400878906 at position (-1400, -11100, 6762.1298828125) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play effect {effects/particles/explosions/bridge_explosion} at position Vector3(-1425, -675, 5645.48)	(DELAY 0.1333329975605)
 		Play sound 'explosion_secondary'
 		Create objective for enemies around position (-1474.2900390625, -8043.759765625, 5778.2001953125) with radius 1250 with action so_cover_crh_left_loop
@@ -2640,9 +2820,13 @@
 'trigger_area_004' [ElementAreaTrigger] 102121 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 260 x 500 x 237.89999389648 at position (-3400, -22600, 7270.4799804688)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 260 x 500 x 237.89999389648 at position (-3400, -22600, 7270.4799804688) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g72'
  
 'logic_link_059' [MissionScriptElement] 101355 from default
@@ -2653,9 +2837,13 @@
 'trigger_area_021' [ElementAreaTrigger] 101547 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2950, -47175, 5136.9501953125)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2950, -47175, 5136.9501953125) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g01'
  
 'logic_link_076' [MissionScriptElement] 101611 from default

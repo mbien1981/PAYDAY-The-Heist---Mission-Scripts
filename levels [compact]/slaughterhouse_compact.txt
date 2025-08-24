@@ -450,9 +450,13 @@
 'trigger_area_040' [ElementAreaTrigger] 103962 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1169.1999511719 x 625 x 434.29998779297 at position (-4275, 6114, 1137.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1169.1999511719 x 625 x 434.29998779297 at position (-4275, 6114, 1137.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play effect {effects/particles/dest/slaughter_van_dust} at position Vector3(-7921, 6410, 930.398)
  
 'func_sequence_trigger_013' [ElementUnitSequenceTrigger] 102411 from deafult
@@ -496,9 +500,13 @@
 'trigger_area_012' [ElementAreaTrigger] 102811 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1346.1300048828 x 253.64999389648 x 510 at position (-10158, 6493, 1023)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1346.1300048828 x 253.64999389648 x 510 at position (-10158, 6493, 1023) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 10s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_037' [MissionScriptElement] 102775 from deafult	(DELAY 3)
 		Perform 'logic_operator_008': 	(DELAY 1)
 			Remove waypoint with text 'Gasoline' and icon wp_standard from (-9908, 6553, 453.99600219727) 
@@ -573,9 +581,13 @@
 'trigger_area_019' [ElementAreaTrigger] 102204 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1370.3100585938 x 767.59301757813 x 463.39099121094 at position (-17395, 7571, 75.610900878906)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 1370.3100585938 x 767.59301757813 x 463.39099121094 at position (-17395, 7571, 75.610900878906) rotation (-0, -0, 90)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'front_doors_close' on unit 102191 {units/world/props/container/slaughterhouse_container_two_doors} at (-17389, 7563, -73) 
 		Run sequence 'rear_doors_close' on unit 102191 {units/world/props/container/slaughterhouse_container_two_doors} at (-17389, 7563, -73) 
 		Run sequence 'light_off' on unit 102516 {core/units/light_omni_seq/light_omni_seq} at (-17479, 7579, -0.38910099864006) 
@@ -662,9 +674,13 @@
  
 'trigger_area_016' [ElementAreaTrigger] 100957 from deafult
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-7875, 5600, 87.996398925781)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-7875, 5600, 87.996398925781) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Perform 'ai_enemy_prefered_add_001': 	(DELAY 95)
 			Add preferred spawn point for {units/characters/enemies/swat/swat} with action none at (-11133, 5264, 4.9937701225281)
 			Add preferred spawn point for {units/characters/enemies/swat/swat} with action none at (-11033, 5289, 4.9937701225281)
@@ -817,9 +833,13 @@
 'trigger_area_021' [ElementAreaTrigger] 103100 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 671.54998779297 x 500 x 500 at position (-18784, 5775, 440.51098632813)
-	Trigger instigator: player
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 671.54998779297 x 500 x 500 at position (-18784, 5775, 440.51098632813) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
  
 'logic_link_142' [MissionScriptElement] 103116 from deafult
 	Perform 'func_sequence_212': 	(DELAY 10)
@@ -843,9 +863,13 @@
 'trigger_area_024' [ElementAreaTrigger] 101837 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-19355, 6900, -24)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-19355, 6900, -24) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'trigger_area_025' [ElementAreaTrigger] 101886 from deafult
 		Turn on flashlights in world
 		Remove waypoint with text 'Escape!' and icon wp_standard from (-19529, 6905, 108.82499694824) 
@@ -894,9 +918,13 @@
 'trigger_area_003' [ElementAreaTrigger] 100174 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 5227.3198242188 x 535 x 1355.8399658203 at position (-22947.599609375, 6778.1000976563, -25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 5227.3198242188 x 535 x 1355.8399658203 at position (-22947.599609375, 6778.1000976563, -25) rotation (-0, -0, 94.000045776367)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 				Forbid AI nav sections 79	(DELAY 10)
 		Execute element 'func_sequence_trigger_011' [ElementUnitSequenceTrigger] 101964 from deafult	(DELAY 3)
 		Set blurzone to mode 2 with height 200 and radius 400 at (-22398, 4909, 19)	(DELAY 3)
@@ -1041,9 +1069,13 @@
  
 'trigger_area_046' [ElementAreaTrigger] 101630 from deafult
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 115 x 445 x 2618 at position (-6387, 5827, 1232.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 115 x 445 x 2618 at position (-6387, 5827, 1232.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 3s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_131' [MissionScriptElement] 101633 from deafult
 		Toggle OFF element 'trigger_area_046' [ElementAreaTrigger] 101630 from deafult
 		Make teammates close to instigator say 'g17'	(DELAY 3.5999999046326)
@@ -1058,9 +1090,13 @@
 'trigger_area_025' [ElementAreaTrigger] 101886 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 478.38000488281 x 500 x 500 at position (-21026.30078125, 6119.9301757813, 54.124599456787)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 478.38000488281 x 500 x 500 at position (-21026.30078125, 6119.9301757813, 54.124599456787) rotation (-0, -0, 39.999969482422)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		If the difficulty is {Overkill 145+} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:	(DELAY 2)
 			Roll the dice with 50% chance to succeed.
 			On success, perform:
@@ -1168,9 +1204,13 @@
 'trigger_area_048' [ElementAreaTrigger] 102702 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2000 x 500 x 889.20001220703 at position (-7948, 9544, 14.643699645996)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2000 x 500 x 889.20001220703 at position (-7948, 9544, 14.643699645996) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open' on unit 100118 {units/world/architecture/slaughterhouse/slaughterhouse_carport} at (-7649.1201171875, 9104.69921875, 4.9949998855591) 
 		Run sequence 'light_on' on unit 103594 {units/lights/light_omni_shadow_projection_01_seq/light_omni_shadow_projection_01_seq} at (-7983, 9446, 57.610000610352) 
  
@@ -1210,9 +1250,13 @@
  
 'trigger_area_032' [ElementAreaTrigger] 103310 from deafult
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 327.37899780273 x 325 x 436.56500244141 at position (-4825, 5775, 1668.2800292969)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 327.37899780273 x 325 x 436.56500244141 at position (-4825, 5775, 1668.2800292969) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_01'
  
 'ai_enemy_trigger_008' [ElementEnemyDummyTrigger] 103454 from deafult
@@ -1452,9 +1496,13 @@
 'trigger_area_014' [ElementAreaTrigger] 103039 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-4200, 2450, 1229)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-4200, 2450, 1229) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.40000000596046s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_11'	(DELAY 2)
 		Run sequence 'hide_character' on unit 100840 {units/vehicles/animated_cars/garbage_truck/garbage_truck_animated} at (-3943.2299804688, 11948.5, 1052) 
  
@@ -1466,17 +1514,25 @@
 'trigger_area_026' [ElementAreaTrigger] 103151 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 320 x 500 x 500 at position (-7902, 6307, 207.53300476074)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 320 x 500 x 500 at position (-7902, 6307, 207.53300476074) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_35'
  
 'trigger_area_030' [ElementAreaTrigger] 103215 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 760 x 500 x 613.79998779297 at position (-19199, 6900.83984375, 127)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 760 x 500 x 613.79998779297 at position (-19199, 6900.83984375, 127) rotation (-0, -0, 92.000045776367)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_62'
  
 'logic_link_garageport1' [MissionScriptElement] 101536 from deafult
@@ -1526,9 +1582,13 @@
 'trigger_area_007' [ElementAreaTrigger] 100705 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 6587.6899414063 x 4000 x 11578.299804688 at position (-4215, 4775, 41.996398925781)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 6587.6899414063 x 4000 x 11578.299804688 at position (-4215, 4775, 41.996398925781) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 2s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_025' [MissionScriptElement] 100704 from deafult
 		Toggle OFF element 'trigger_area_046' [ElementAreaTrigger] 101630 from deafult
 		Toggle OFF element 'logic_counter_027' [ElementCounter] 101829 from deafult
@@ -1568,9 +1628,13 @@
  
 'trigger_area_006' [ElementAreaTrigger] 101505 from deafult
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 747.82202148438 x 500 x 676 at position (-5084, 5525, 1557.2800292969)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 747.82202148438 x 500 x 676 at position (-5084, 5525, 1557.2800292969) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Activate objective 'slaughterhouse_prepare_ambush' at position (-5234, 5421, 1557.2800292969) 	(DELAY 2)
 		Add waypoint with text 'Get in place' and icon wp_standard at (-4289, 5494, 1664.1099853516) 
 		Run sequence 'show' on unit 101944 {units/vehicles/backdrops/backdrop_airplane_animated} at (7358.0400390625, 5411.1298828125, 13533.299804688) 
@@ -1698,9 +1762,13 @@
 'trigger_area_004' [ElementAreaTrigger] 102369 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1666.0999755859 x 384.37100219727 x 1068.8599853516 at position (-23151, 8651, 62)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1666.0999755859 x 384.37100219727 x 1068.8599853516 at position (-23151, 8651, 62) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		End the current level/mission with state 'success'	(DELAY 5)
 		Execute element 'logic_link_128' [MissionScriptElement] 103996 from deafult
  
@@ -1752,9 +1820,13 @@
 'trigger_area_027' [ElementAreaTrigger] 103169 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 680 x 725 x 4000 at position (-14743, 6675, 77)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 680 x 725 x 4000 at position (-14743, 6675, 77) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.30000001192093s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_43'
 		Make teammates say 'slh_44'	(DELAY 4)
 		Make teammates say 'slh_45'	(DELAY 2)
@@ -1802,9 +1874,13 @@
 'trigger_area_035' [ElementAreaTrigger] 103697 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 255 x 249.19999694824 x 350 at position (-11290.5, 5726.5698242188, 406.05700683594)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 255 x 249.19999694824 x 350 at position (-11290.5, 5726.5698242188, 406.05700683594) rotation (-0, 0, 174.00001525879)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.30000001192093s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'kill_window_02' on unit 103678 {units/world/props/slaughterhouse/slaughterhouse_window_glass/slaughterhouse_glass_tall} at (-11315, 6293, 427.42199707031) 	(DELAY 2)
  
 'heli_start_getin' [MissionScriptElement] 101698 from alley_ambush
@@ -1879,9 +1955,13 @@
 'trigger_area_043' [ElementAreaTrigger] 100339 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2703 x 655 x 3681.6000976563 at position (-8300, 7259, 319.99600219727)
-	Trigger instigator: player
-	When trigger condition 'on_exit' is met, perform:
+	Trigger shape (Box WxHxD): 2703 x 655 x 3681.6000976563 at position (-8300, 7259, 319.99600219727) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_exit
+	Required amount: at least 1 instigators
+	Check interval: 5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_114' [MissionScriptElement] 101210 from deafult
  
 'logic_link_101' [MissionScriptElement] 100355 from roof_event
@@ -1908,9 +1988,13 @@
 'trigger_area_015' [ElementAreaTrigger] 100643 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 620 x 640 x 865 at position (-13490, 6678, 112.9940032959)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 620 x 640 x 865 at position (-13490, 6678, 112.9940032959) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'logic_link_039' [MissionScriptElement] 100646 from deafult
 			2) 'logic_link_040' [MissionScriptElement] 100647 from deafult
@@ -2190,9 +2274,13 @@
 'trigger_area_020' [ElementAreaTrigger] 103091 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 386.75 x 500 x 645 at position (-18636.099609375, 6536.0600585938, 437.51098632813)
-	Trigger instigator: player
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 386.75 x 500 x 645 at position (-18636.099609375, 6536.0600585938, 437.51098632813) rotation (-0, -0, 44.999935150146)
+	Trigger instigator type: player
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
  
 'logic_link_144' [MissionScriptElement] 103203 from deafult
 	Spawn enemy unit {units/characters/enemies/murky_water1/murky_water1} at position (-16661.19921875, 5276.7099609375, -73) with rotation (-0, 0, 135.00006103516)
@@ -2216,9 +2304,13 @@
  
 'trigger_area_002' [ElementAreaTrigger] 101300 from deafult
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1929.3399658203 x 464.60000610352 x 4590.3999023438 at position (-3726, 4625, 1679.1400146484)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1929.3399658203 x 464.60000610352 x 4590.3999023438 at position (-3726, 4625, 1679.1400146484) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Spawn 3 civilians in randomly picked spawn points from: 	(DELAY 0.2333330065012)
 			1) {units/characters/civilians/butcher_1/butcher_1} at (-7980.419921875, 6022.16015625, 6)
 			2) {units/characters/civilians/butcher_3/butcher_3} at (-8575, 7825, 2.9964001178741)
@@ -2453,9 +2545,13 @@
 'trigger_area_044' [ElementAreaTrigger] 100386 from alley_ambush
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 315 x 326.39999389648 x 500 at position (-11437, 7913, 343.57000732422)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 315 x 326.39999389648 x 500 at position (-11437, 7913, 343.57000732422) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g60'	(DELAY 1)
  
 'logic_link_067' [MissionScriptElement] 102724 from alley_ambush
@@ -2493,9 +2589,13 @@
  
 'trigger_area_034' [ElementAreaTrigger] 102916 from deafult
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 439.42498779297 x 302.04901123047 x 419.04998779297 at position (-22399.599609375, 5000.41015625, 58.611000061035)
-	Trigger instigator: player
-	When trigger condition 'both' is met, perform:
+	Trigger shape (Box WxHxD): 439.42498779297 x 302.04901123047 x 419.04998779297 at position (-22399.599609375, 5000.41015625, 58.611000061035) rotation (-0, 0, -134.99990844727)
+	Trigger instigator type: player
+	Trigger fires on: both
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create killzone for instigator of damage type 'fire'
  
 'logic_counter_015' [ElementCounter] 102948 from alley_ambush
@@ -2604,9 +2704,13 @@
 'trigger_area_039' [ElementAreaTrigger] 101893 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 331.70901489258 x 708.24597167969 x 1235.2600097656 at position (-7264, 4782, 359.00100708008)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 331.70901489258 x 708.24597167969 x 1235.2600097656 at position (-7264, 4782, 359.00100708008) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 3s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'trigger_area_039' [ElementAreaTrigger] 101893 from deafult	(DELAY 1)
 		Execute element 'logic_link_123' [MissionScriptElement] 101877 from deafult
 		Execute element 'logic_link_134' [MissionScriptElement] 104035 from deafult
@@ -2688,9 +2792,13 @@
 'trigger_area_031' [ElementAreaTrigger] 103240 from alley_ambush
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 224.8990020752 x 500 x 269.89199829102 at position (-8610, 6450, 129.99600219727)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 224.8990020752 x 500 x 269.89199829102 at position (-8610, 6450, 129.99600219727) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_35'	(DELAY 2)
  
 'logic_link_068' [MissionScriptElement] 102725 from alley_ambush
@@ -2776,9 +2884,13 @@
 'trigger_area_022' [ElementAreaTrigger] 103093 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 693.23199462891 x 500 x 730.17102050781 at position (-7863, 6436, 162.85299682617)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 693.23199462891 x 500 x 730.17102050781 at position (-7863, 6436, 162.85299682617) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'slh_19'	(DELAY 3)
  
 'func_sequence_trigger_076' [ElementUnitSequenceTrigger] 101062 from deafult
@@ -2842,9 +2954,13 @@
 'trigger_area_038' [ElementAreaTrigger] 101878 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1306.8000488281 x 712.04998779297 x 262.35000610352 at position (-7354, 4782, 343.00100708008)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1306.8000488281 x 712.04998779297 x 262.35000610352 at position (-7354, 4782, 343.00100708008) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 3s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_124' [MissionScriptElement] 102103 from deafult
 		Toggle OFF element 'trigger_area_038' [ElementAreaTrigger] 101878 from deafult	(DELAY 1)
  
@@ -2867,16 +2983,24 @@
 'trigger_area_010' [ElementAreaTrigger] 101812 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 704.84997558594 x 500 x 267.79998779297 at position (-19324, 7847.7998046875, -9.9417600631714)
-	Trigger instigator: player
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 704.84997558594 x 500 x 267.79998779297 at position (-19324, 7847.7998046875, -9.9417600631714) rotation (-0, -0, 1.0000004768372)
+	Trigger instigator type: player
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
  
 'trigger_area_013' [ElementAreaTrigger] 102246 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 1000 at position (-13885, 6732, 154.9940032959)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 1000 at position (-13885, 6732, 154.9940032959) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Perform 'func_execute_in_other_mission_002': 	(DELAY 200)
 			Execute element 'roof_prefered_remove' [MissionScriptElement] 100914 from roof_event
 			Run sequence 'hover_flyout_back' on unit 100712 {units/vehicles/helicopter/helicopter_ranger/helicopter_cops} at (-7105.919921875, 7390.9599609375, -799.17102050781) 
@@ -2889,9 +3013,13 @@
  
 'trigger_area_047' [ElementAreaTrigger] 102278 from deafult
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1600.25 x 535 x 475.20001220703 at position (-12565, 6000, 142.9940032959)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1600.25 x 535 x 475.20001220703 at position (-12565, 6000, 142.9940032959) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open' on unit 100465 {units/world/architecture/slaughterhouse/slaughterhouse_carport} at (-12787, 6277, 4.9699702262878) 
 		Run sequence 'light_on' on unit 101437 {units/lights/light_omni_shadow_projection_01_seq/light_omni_shadow_projection_01_seq} at (-12854, 6174, 46.965999603271) 	(DELAY 3)
  
@@ -2918,9 +3046,13 @@
 'trigger_area_045' [ElementAreaTrigger] 100455 from alley_ambush
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 281.21200561523 x 460 at position (-9456, 7838, 467.99200439453)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 281.21200561523 x 460 at position (-9456, 7838, 467.99200439453) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g29'	(DELAY 1)
  
 'logic_link_102' [MissionScriptElement] 102964 from alley_ambush
@@ -3079,9 +3211,13 @@
 'trigger_area_028' [ElementAreaTrigger] 103174 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1094.6300048828 x 600 x 563.27697753906 at position (-17385, 7537, -68.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1094.6300048828 x 600 x 563.27697753906 at position (-17385, 7537, -68.5) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_46'
  
 'func_sequence_trigger_020' [ElementUnitSequenceTrigger] 101175 from deafult
@@ -3100,9 +3236,13 @@
 'trigger_area_005' [ElementAreaTrigger] 103382 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4360.330078125 x 500 x 4760 at position (-3375, 3958, 1753.3800048828)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 4360.330078125 x 500 x 4760 at position (-3375, 3958, 1753.3800048828) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_036' [MissionScriptElement] 101937 from deafult
 		Activate objective 'slaughterhouse_locate_van' at position (-3125, 2050, 1054) 	(DELAY 4)
 		Complete objective 'slaughterhouse_attack_convoy' at position (-3275, 1975, 1054) 	(DELAY 2)
@@ -3285,9 +3425,13 @@
 'trigger_area_008' [ElementAreaTrigger] 101480 from alley_ambush
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-7898, 5580, 172.99600219727)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-7898, 5580, 172.99600219727) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_112' [MissionScriptElement] 102285 from alley_ambush	(DELAY 0.033333301544189)
 		Remove waypoint with text 'Armored transport' and icon wp_standard from (-7761, 6412, 399.76501464844) 
 		Add waypoint with text 'Shoot' and icon wp_standard at (-7865, 6420, 390.17498779297) 	(DELAY 3)
@@ -3551,9 +3695,13 @@
 'trigger_area_011' [ElementAreaTrigger] 103480 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 767.05200195313 x 434.29998779297 x 271.43399047852 at position (-18692, 5794, -45.941699981689)
-	Trigger instigator: player
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 767.05200195313 x 434.29998779297 x 271.43399047852 at position (-18692, 5794, -45.941699981689) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
  
 'logic_link_029' [MissionScriptElement] 103752 from deafult
 	Create navigation link for enemies from position (-10713, 4946, 3.0036599636078) to (-10679.900390625, 5674.2202148438, 4.9939799308777) with action so_slide_under_low_obj	(DELAY 1)
@@ -3585,31 +3733,47 @@
 'trigger_area_037' [ElementAreaTrigger] 102137 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1905.7700195313 x 1000 x 1820.5 at position (-23132, 8583, 75)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1905.7700195313 x 1000 x 1820.5 at position (-23132, 8583, 75) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_128' [MissionScriptElement] 103996 from deafult
  
 'trigger_area_042' [ElementAreaTrigger] 100282 from alley_ambush
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 433.52600097656 x 514.09997558594 x 565.79998779297 at position (-4125, 4050, 1084)
-	Trigger instigator: player
-	When trigger condition 'both' is met, perform:
+	Trigger shape (Box WxHxD): 433.52600097656 x 514.09997558594 x 565.79998779297 at position (-4125, 4050, 1084) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: both
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create killzone for instigator of damage type 'fire'
  
 'trigger_area_033' [ElementAreaTrigger] 102345 from deafult
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 421.79998779297 x 500 x 310 at position (-15744, 7890, 52.996299743652)
-	Trigger instigator: player
-	When trigger condition 'both' is met, perform:
+	Trigger shape (Box WxHxD): 421.79998779297 x 500 x 310 at position (-15744, 7890, 52.996299743652) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: both
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create killzone for instigator of damage type 'fire'
  
 'trigger_area_049' [ElementAreaTrigger] 102755 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1610 x 600 x 919.79998779297 at position (-10475, 4986, 54.99409866333)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1610 x 600 x 919.79998779297 at position (-10475, 4986, 54.99409866333) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open' on unit 100362 {units/world/architecture/slaughterhouse/slaughterhouse_carport} at (-10451.5, 5453.1899414063, 4.9959697723389) 	(DELAY 1)
 		Run sequence 'light_on' on unit 103592 {units/lights/light_omni_shadow_projection_01_seq/light_omni_shadow_projection_01_seq} at (-10462, 5314, 42.993801116943) 	(DELAY 3)
  
@@ -3720,9 +3884,13 @@
 'trigger_area_023' [ElementAreaTrigger] 101114 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 628.72802734375 x 500 x 500 at position (-4237, 4663, 1248.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 628.72802734375 x 500 x 500 at position (-4237, 4663, 1248.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'g12'	(DELAY 5)
 		Play dialogue 'slh_ban_03'
 		Toggle ON element 'trigger_area_040' [ElementAreaTrigger] 103962 from deafult
@@ -3741,9 +3909,13 @@
  
 'trigger_area_001' [ElementAreaTrigger] 101242 from deafult
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 720 x 500 x 760 at position (-5900, 6700, 1295)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 720 x 500 x 760 at position (-5900, 6700, 1295) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Perform 'func_sequence_010': 	(DELAY 0.1333329975605)
 			Run sequence 'light_off' on unit 102558 {units/world/props/office/roof_lamp/roof_lamp_broken} at (-8625, 6519, 596.01202392578) 
 			Run sequence 'light_off' on unit 102761 {units/world/props/office/roof_lamp/roof_lamp_broken} at (-9042, 7468, 627) 
@@ -3799,9 +3971,13 @@
 'trigger_area_009' [ElementAreaTrigger] 103481 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1364.5500488281 x 665.55603027344 x 492.78900146484 at position (-18127.19921875, 7127.740234375, 76)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 1364.5500488281 x 665.55603027344 x 492.78900146484 at position (-18127.19921875, 7127.740234375, 76) rotation (-0, 0, -43.999931335449)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'front_doors_close' on unit 100887 {units/world/props/container/slaughterhouse_container_two_doors} at (-18143.5, 7140.8999023438, -73) 
 		Run sequence 'rear_doors_close' on unit 100887 {units/world/props/container/slaughterhouse_container_two_doors} at (-18143.5, 7140.8999023438, -73) 
 		Run sequence 'hide' on unit 100772 {units/equipment/gas/gas_can_interact} at (-17940.900390625, 7011.58984375, -42.389099121094) 	(DELAY 1)
@@ -3927,9 +4103,13 @@
 'trigger_area_036' [ElementAreaTrigger] 100444 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2592.1298828125 x 894.90002441406 x 3634.0300292969 at position (-8250, 7325, 379.99600219727)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2592.1298828125 x 894.90002441406 x 3634.0300292969 at position (-8250, 7325, 379.99600219727) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 5s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'trigger_area_043' [ElementAreaTrigger] 100339 from deafult
 		Execute element 'logic_link_114' [MissionScriptElement] 101210 from deafult	(DELAY 3600)
  
@@ -3951,9 +4131,13 @@
 'trigger_area_041' [ElementAreaTrigger] 103975 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 2055.6499023438 x 440 x 1652.4300537109 at position (-15291, 6753, 155.5)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 2055.6499023438 x 440 x 1652.4300537109 at position (-15291, 6753, 155.5) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 10s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		If difficulty is Hard then perform:
 			Roll the dice with 50% chance to succeed.
 			On success, perform:
@@ -4022,9 +4206,13 @@
 'trigger_area_029' [ElementAreaTrigger] 103194 from deafult
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 974.78900146484 x 620 x 2353.3601074219 at position (-15550, 7009, 152.99600219727)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 974.78900146484 x 620 x 2353.3601074219 at position (-15550, 7009, 152.99600219727) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates say 'slh_59'
  
 'logic_link_002' [MissionScriptElement] 101243 from deafult

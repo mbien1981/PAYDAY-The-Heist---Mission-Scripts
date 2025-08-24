@@ -326,9 +326,13 @@
  
 'trigger_area_004' [ElementAreaTrigger] 100326 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 831.01599121094 x 500 x 1628.6600341797 at position (-7117, 3659, 12.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 831.01599121094 x 500 x 1628.6600341797 at position (-7117, 3659, 12.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
  
 'a1 cb interact' [ElementUnitSequenceTrigger] 100902 from default
@@ -401,9 +405,13 @@
 'trigger_area_028' [ElementAreaTrigger] 102118 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 220.7799987793 x 500 x 294.29400634766 at position (-2273, 2698, 78.788803100586)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 220.7799987793 x 500 x 294.29400634766 at position (-2273, 2698, 78.788803100586) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_07x'
 		Make teammates close to instigator say 'cft_06'	(DELAY 4)
  
@@ -433,9 +441,13 @@
 'trigger_area_052' [ElementAreaTrigger] 102694 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-6706, -3935, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-6706, -3935, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g04'
  
 'logic_link_140' [MissionScriptElement] 102886 from default
@@ -476,9 +488,13 @@
 'civ outside 6' [ElementAreaTrigger] 101127 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-1184, 2661, 21.999900817871)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-1184, 2661, 21.999900817871) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'hjulsta' [ElementEnemyDummyTrigger] 101159 from default
@@ -488,9 +504,13 @@
 'civ outside 1' [ElementAreaTrigger] 101319 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2669, -645, 21.999900817871)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2669, -645, 21.999900817871) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'ai_enemy_trigger_017' [ElementEnemyDummyTrigger] 101415 from default
@@ -535,9 +555,13 @@
 'trigger_area_039' [ElementAreaTrigger] 102343 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3793, 1873, 26.700399398804)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3793, 1873, 26.700399398804) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_04x' from units: 
 			- {units/characters/civilians/suburbia_female3/suburbia_female3} from element 'ai_spawn_civilian_018'
  
@@ -570,9 +594,13 @@
 'trigger_area_019' [ElementAreaTrigger] 100712 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 375 x 500 x 259.16799926758 at position (-5857, -410, 87)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 375 x 500 x 259.16799926758 at position (-5857, -410, 87) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'enable_interaction' on unit 100125 {units/world/props/suburbia_manhole/suburbia_manhole} at (-5955, -331, 46) 
  
 'Alerted' [ElementCounter] 101128 from default
@@ -688,9 +716,13 @@
 'civ outside 8' [ElementAreaTrigger] 101320 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-1157, -435, 25)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-1157, -435, 25) rotation (-0, 0, 179.99998474121)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'ai_enemy_trigger_018' [ElementEnemyDummyTrigger] 101416 from default
@@ -852,9 +884,13 @@
 'trigger_area_049' [ElementAreaTrigger] 102600 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 978.40502929688 x 500 x 2313.5600585938 at position (-2892, 3624, -323.09600830078)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 978.40502929688 x 500 x 2313.5600585938 at position (-2892, 3624, -323.09600830078) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for enemies around position (-2401, 2713, 75.5) with action bbq_basement_react
 		Execute element 'diag start' [MissionScriptElement] 102278 from default
  
@@ -905,9 +941,13 @@
 'civ outside 5' [ElementAreaTrigger] 101129 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-1902, 4222, 23.908599853516)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-1902, 4222, 23.908599853516) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'garden tap d' [MissionScriptElement] 101449 from default
@@ -999,9 +1039,13 @@
  
 'trigger_area_011' [ElementAreaTrigger] 100554 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-8144, 3601, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-8144, 3601, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		If the difficulty is {Easy, Normal} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:
 			Print debug string 'barbro'
  
@@ -1011,9 +1055,13 @@
 'civ outside 4' [ElementAreaTrigger] 101130 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 410 x 500 x 500 at position (-3127, 4224, 21.999900817871)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 410 x 500 x 500 at position (-3127, 4224, 21.999900817871) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'trigger_alert_008' [ElementAlertTrigger] 101546 from default
@@ -1025,9 +1073,13 @@
 'trigger_area_029' [ElementAreaTrigger] 102122 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 634.5 x 500 x 805 at position (-2737, 3524, -324.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 634.5 x 500 x 805 at position (-2737, 3524, -324.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_09x'
 		Execute at random 1 of the following elements:
 			1) 'cft_ban_08x silent' [ElementDialogue] 102356 from default
@@ -1035,9 +1087,13 @@
  
 'area team open' [ElementAreaTrigger] 102154 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 300 x 500 x 140 at position (-1377, 2647, 75.258201599121)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 300 x 500 x 140 at position (-1377, 2647, 75.258201599121) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open_front_door' on unit 101434 {units/world/architecture/suburbia/suburbia_house1} at (-3000, 3000, 0) 
  
 'logic_link_079' [MissionScriptElement] 102186 from default
@@ -1055,9 +1111,13 @@
  
 'area open team' [ElementAreaTrigger] 102250 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 176 x 500 x 300 at position (-2705, -434, 109.5)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 176 x 500 x 300 at position (-2705, -434, 109.5) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open_front_door' on unit 101433 {units/world/architecture/suburbia/suburbia_house2} at (-3000, 500, 0) 
  
 'func_sequence_trigger_032' [ElementUnitSequenceTrigger] 102378 from default
@@ -1097,9 +1157,13 @@
  
 'trigger_area_046' [ElementAreaTrigger] 102570 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1500 x 500 x 1500 at position (-3847, 1927, 32.024501800537)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1500 x 500 x 1500 at position (-3847, 1927, 32.024501800537) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'cft_01'
 		Print debug string 'cft_01'
  
@@ -1179,9 +1243,13 @@
  
 'trigger_area_016' [ElementAreaTrigger] 101323 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 236.55000305176 x 500 x 269.10000610352 at position (-3959, 1937, 28.700000762939)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 236.55000305176 x 500 x 269.10000610352 at position (-3959, 1937, 28.700000762939) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for civilians around position (-3653.7299804688, 2370.5600585938, 26.700399398804) with radius 75 with action bbq_start_talk
 		Toggle OFF element 'logic_link_060' [MissionScriptElement] 102113 from default
 		Toggle OFF element 'logic_link_061' [MissionScriptElement] 102114 from default
@@ -1217,9 +1285,13 @@
  
 'team warning 2' [ElementAreaTrigger] 102347 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 573.52099609375 x 500 x 5709.8901367188 at position (-5894, 1725, 21.999900817871)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 573.52099609375 x 500 x 5709.8901367188 at position (-5894, 1725, 21.999900817871) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -1291,17 +1363,25 @@
 'trigger_area_025' [ElementAreaTrigger] 100716 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 405 x 500 x 405 at position (-865, 8.9999904632568, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 405 x 500 x 405 at position (-865, 8.9999904632568, 25) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'enable_interaction' on unit 100700 {units/world/props/suburbia_manhole/suburbia_manhole} at (-840, -10, 34) 
  
 'civ outside 3' [ElementAreaTrigger] 101132 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 595 x 500 x 1002.6699829102 at position (-6460, 1435, 21.999900817871)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 595 x 500 x 1002.6699829102 at position (-6460, 1435, 21.999900817871) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'logic_link_100' [MissionScriptElement] 101228 from default
@@ -1328,9 +1408,13 @@
 'team outside 5' [ElementAreaTrigger] 101388 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 750.73797607422 x 500 x 2919.1201171875 at position (-4959, -749, 21.999900817871)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 750.73797607422 x 500 x 2919.1201171875 at position (-4959, -749, 21.999900817871) rotation (-0, 0, -90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'Alert: Trigger Alert' [MissionScriptElement] 101548 from default
@@ -1352,9 +1436,13 @@
 'trigger_area_017' [ElementAreaTrigger] 101740 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-6700, -2088, -319.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-6700, -2088, -319.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute at random 1 of the following elements:
@@ -1386,18 +1474,26 @@
 'trigger_area_045' [ElementAreaTrigger] 102540 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 215.23399353027 x 500 x 265.7200012207 at position (-2489, -2290, 17.787799835205)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 215.23399353027 x 500 x 265.7200012207 at position (-2489, -2290, 17.787799835205) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_101' [MissionScriptElement] 100029 from default	(DELAY 10)
 		Print debug string 'swat bus in 15'
  
 'trigger_area_053' [ElementAreaTrigger] 102700 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-7526, -5881, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-7526, -5881, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g14'
  
 'logic_link_130' [MissionScriptElement] 102828 from default
@@ -1443,9 +1539,13 @@
 'trigger_area_002' [ElementAreaTrigger] 100365 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 470 x 500 x 842.57897949219 at position (-1601, -103, -357.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 470 x 500 x 842.57897949219 at position (-1601, -103, -357.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_047' [MissionScriptElement] 101697 from default
 		Make teammates close to instigator say 'cft_b_bri_45'
 		Toggle ON element 'trigger_area_054' [ElementAreaTrigger] 102704 from default
@@ -1476,9 +1576,13 @@
 'team outside 1' [ElementAreaTrigger] 101389 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2719, -642, 21.999900817871)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2719, -642, 21.999900817871) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'counter swat' [ElementCounter] 101709 from default
@@ -1499,9 +1603,13 @@
  
 'team warning 1' [ElementAreaTrigger] 102349 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 573.52099609375 x 500 x 1713 at position (-5575, 60, 45.184600830078)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 573.52099609375 x 500 x 1713 at position (-5575, 60, 45.184600830078) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -1526,9 +1634,13 @@
 		Make teammates close to instigator say 'cft_15'
  
 'trigger_area_006' [ElementAreaTrigger] 102861 from default
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3040, 1666, -239.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3040, 1666, -239.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'logic_link_140' [MissionScriptElement] 102886 from default
 		Toggle ON element 'trigger_area_015' [ElementAreaTrigger] 102866 from default
 		Print debug string 'inside'
@@ -1537,9 +1649,13 @@
 'trigger_area_001' [ElementAreaTrigger] 100430 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 842.57897949219 x 500 x 842.57897949219 at position (-2727, 3214, 75.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 842.57897949219 x 500 x 842.57897949219 at position (-2727, 3214, 75.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr2_05x' from units: 
 			- {units/characters/civilians/suburbia_female2/suburbia_female2} from element 'ai_spawn_civilian_002'
  
@@ -1582,9 +1698,13 @@
 'team outside 3' [ElementAreaTrigger] 101390 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 328.04998779297 x 500 x 405 at position (-3289, -668, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 328.04998779297 x 500 x 405 at position (-3289, -668, 25) rotation (-0, 0, -90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'interact garden tap b' [ElementUnitSequenceTrigger] 101454 from default
@@ -1662,9 +1782,13 @@
 'trigger_area_058' [ElementAreaTrigger] 102766 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 200 x 600 x 200 at position (-4351, 1560, -324.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 200 x 600 x 200 at position (-4351, 1560, -324.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_036' [ElementCounter] 102765 from default
  
 'logic_link_027' [MissionScriptElement] 100527 from default
@@ -1707,9 +1831,13 @@
 'team outside 4' [ElementAreaTrigger] 101391 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 328.04998779297 x 500 x 328.04998779297 at position (-3506.3999023438, -626.69799804688, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 328.04998779297 x 500 x 328.04998779297 at position (-3506.3999023438, -626.69799804688, 25) rotation (-0, 0, 135.00006103516)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'logic_link_013' [MissionScriptElement] 101455 from default
@@ -1724,9 +1852,13 @@
 'trigger_area_030' [ElementAreaTrigger] 102127 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3462, 3386, -332.57998657227)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3462, 3386, -332.57998657227) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'cft_16' [ElementTeammateComment] 102584 from default
 			2) 'cft_17' [ElementTeammateComment] 102666 from default
@@ -1743,9 +1875,13 @@
  
 'team warning 3' [ElementAreaTrigger] 102351 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 510.43399047852 x 500 x 393.98999023438 at position (-3502, 4217, 22.499900817871)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 510.43399047852 x 500 x 393.98999023438 at position (-3502, 4217, 22.499900817871) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -1905,9 +2041,13 @@
 'team outside 2' [ElementAreaTrigger] 101392 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 328.04998779297 x 500 x 328.04998779297 at position (-3092.0400390625, -629.42602539063, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 328.04998779297 x 500 x 328.04998779297 at position (-3092.0400390625, -629.42602539063, 25) rotation (-0, 0, -44.999935150146)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'logic_link_024' [MissionScriptElement] 101456 from default
@@ -1938,9 +2078,13 @@
 'one' [ElementAreaTrigger] 101712 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 419.90399169922 x 595 x 842.57897949219 at position (-6706, -582, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 419.90399169922 x 595 x 842.57897949219 at position (-6706, -582, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_046' [MissionScriptElement] 101276 from default
 		Make teammates close to instigator say 'cft_b_bri_45'
 		Toggle ON element 'trigger_area_052' [ElementAreaTrigger] 102694 from default
@@ -1978,9 +2122,13 @@
  
 'team warning 4' [ElementAreaTrigger] 102352 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 229.63800048828 x 500 x 211.04200744629 at position (-3824, -254, 26.700000762939)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 229.63800048828 x 500 x 211.04200744629 at position (-3824, -254, 26.700000762939) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -1997,9 +2145,13 @@
 'trigger_area_054' [ElementAreaTrigger] 102704 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-1614, -1912, -396.15600585938)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-1614, -1912, -396.15600585938) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g04'
 		Toggle ON element 'trigger_area_055' [ElementAreaTrigger] 102707 from default
  
@@ -2045,9 +2197,13 @@
  
 'area cops open' [ElementAreaTrigger] 100017 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 176.30000305176 x 500 x 300 at position (-2705, -450, 75.500198364258)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 176.30000305176 x 500 x 300 at position (-2705, -450, 75.500198364258) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open_front_door' on unit 101433 {units/world/architecture/suburbia/suburbia_house2} at (-3000, 500, 0) 
  
 'timer' [ElementTimer] 100177 from default
@@ -2160,9 +2316,13 @@
 'trigger_area_048' [ElementAreaTrigger] 101329 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 336 x 500 x 370 at position (-2267, 2757, 75.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 336 x 500 x 370 at position (-2267, 2757, 75.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for enemies around position (-2401, 2713, 75.5) with action bbq_enter_stair
 		Play sound 'cft_mit_004' from units: 	(DELAY 6)
 			- {units/characters/civilians/suburbia_male2/suburbia_male2} from element 'ai_spawn_civilian_008'
@@ -2179,9 +2339,13 @@
 'team outside 7' [ElementAreaTrigger] 101393 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 573.52099609375 x 500 x 5709.8901367188 at position (-6470, 1725, 21.999900817871)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 573.52099609375 x 500 x 5709.8901367188 at position (-6470, 1725, 21.999900817871) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'logic_link_065' [MissionScriptElement] 101521 from default
@@ -2196,9 +2360,13 @@
 'trigger_area_031' [ElementAreaTrigger] 102129 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-4221, 2166, -411.82901000977)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-4221, 2166, -411.82901000977) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute at random 1 of the following elements:
 			1) 'cft_16' [ElementTeammateComment] 102584 from default
 			2) 'cft_17' [ElementTeammateComment] 102666 from default
@@ -2229,9 +2397,13 @@
 'trigger_area_038' [ElementAreaTrigger] 102321 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 210 x 500 x 190 at position (-4987.08984375, 3057.4299316406, 29.753099441528)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 210 x 500 x 190 at position (-4987.08984375, 3057.4299316406, 29.753099441528) rotation (-0, 0, -32.999950408936)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_01x' from units: 
 			- {units/characters/civilians/suburbia_female4/suburbia_female4} from element 'ai_spawn_civilian_016'
 		Toggle ON element 'trigger_area_038' [ElementAreaTrigger] 102321 from default	(DELAY 10)
@@ -2239,9 +2411,13 @@
  
 'team warning 5' [ElementAreaTrigger] 102353 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 229.63800048828 x 500 x 272.24398803711 at position (-1304, -161, 26.700000762939)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 229.63800048828 x 500 x 272.24398803711 at position (-1304, -161, 26.700000762939) rotation (-0, -0, 90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -2298,9 +2474,13 @@
  
 'trigger_area_010' [ElementAreaTrigger] 101298 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 4032.1201171875 x 621.65502929688 x 4798.2202148438 at position (-3749, 1597, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 4032.1201171875 x 621.65502929688 x 4798.2202148438 at position (-3749, 1597, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_005' [ElementCounter] 100403 from default
 		Play sound 'cft_mit_010' from units: 	(DELAY 4)
 			- {units/characters/civilians/suburbia_male2/suburbia_male2} from element 'ai_spawn_civilian_008'
@@ -2315,9 +2495,13 @@
 'team outside 8' [ElementAreaTrigger] 101394 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 328.04998779297 x 500 x 328.04998779297 at position (-3147, 4160, 23.908599853516)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 328.04998779297 x 500 x 328.04998779297 at position (-3147, 4160, 23.908599853516) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'func_sequence_trigger_007' [ElementUnitSequenceTrigger] 101938 from default
@@ -2356,9 +2540,13 @@
  
 'team warning 6' [ElementAreaTrigger] 102354 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 229.63800048828 x 780 x 841.91497802734 at position (-1880, 1899, 26.700399398804)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 229.63800048828 x 780 x 841.91497802734 at position (-1880, 1899, 26.700399398804) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -2395,9 +2583,13 @@
  
 'trigger_area_015' [ElementAreaTrigger] 102866 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3040, 1666, -189.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3040, 1666, -189.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_140' [MissionScriptElement] 102886 from default
 		Toggle OFF element 'trigger_area_015' [ElementAreaTrigger] 102866 from default
 		Print debug string 'outside'
@@ -2527,9 +2719,13 @@
 'team outside 9' [ElementAreaTrigger] 101395 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 842.57897949219 x 500 x 298.80899047852 at position (-2557, 4232, 23.908599853516)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 842.57897949219 x 500 x 298.80899047852 at position (-2557, 4232, 23.908599853516) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'swat b1 b2' [MissionScriptElement] 101427 from default
@@ -2623,9 +2819,13 @@
  
 'team warning 7' [ElementAreaTrigger] 102355 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 308.90899658203 x 780 x 224.42100524902 at position (-2025, 3852, 78.288803100586)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 308.90899658203 x 780 x 224.42100524902 at position (-2025, 3852, 78.288803100586) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_18x'	(DELAY 2)
 		Print debug string 'cft_ban_18x'
  
@@ -2648,9 +2848,13 @@
 'trigger_area_055' [ElementAreaTrigger] 102707 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-4071, -2110, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-4071, -2110, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g03'
 		Toggle ON element 'trigger_area_056' [ElementAreaTrigger] 102710 from default
  
@@ -2666,9 +2870,13 @@
  
 'trigger_area_027' [ElementAreaTrigger] 100148 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 917.80102539063 x 500 x 621.65502929688 at position (-990, 5847, 12.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 917.80102539063 x 500 x 621.65502929688 at position (-990, 5847, 12.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
  
 'interact reel' [ElementUnitSequenceTrigger] 100596 from default
@@ -2710,9 +2918,13 @@
 'team outside 10' [ElementAreaTrigger] 101396 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 708.04998779297 x 500 x 405 at position (-1790, 4182, 23.908599853516)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 708.04998779297 x 500 x 405 at position (-1790, 4182, 23.908599853516) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'swat c1 c2' [MissionScriptElement] 101428 from default
@@ -2776,9 +2988,13 @@
 'area wolf frans' [ElementAreaTrigger] 102772 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1132.6600341797 x 500 x 1097.7199707031 at position (-4360, 3072, -574.4990234375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1132.6600341797 x 500 x 1097.7199707031 at position (-4360, 3072, -574.4990234375) rotation (-0, 0, -90)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'cft_33'
  
 'ai_enemy_trigger_020' [ElementEnemyDummyTrigger] 100053 from default
@@ -2863,9 +3079,13 @@
 'team outside 11' [ElementAreaTrigger] 101397 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 545.80200195313 x 500 x 1888.6999511719 at position (-1142, 3171, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 545.80200195313 x 500 x 1888.6999511719 at position (-1142, 3171, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'trigger_special_objective_015' [ElementSpecialObjectiveTrigger] 101717 from default
@@ -2877,9 +3097,13 @@
 'trigger_area_023' [ElementAreaTrigger] 102005 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 400 x 300 x 550 at position (-1650, 3679, 223.64599609375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 400 x 300 x 550 at position (-1650, 3679, 223.64599609375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_019' [ElementCounter] 102006 from default
  
 'logic_counter_022' [ElementCounter] 102069 from default
@@ -2895,9 +3119,13 @@
  
 'trigger_area_034' [ElementAreaTrigger] 102261 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 301.62701416016 x 500 x 198 at position (-5068, 2831, 34.915599822998)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 301.62701416016 x 500 x 198 at position (-5068, 2831, 34.915599822998) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_01x' from units: 
 			- {units/characters/civilians/suburbia_female4/suburbia_female4} from element 'ai_spawn_civilian_009'
 		Toggle ON element 'trigger_area_034' [ElementAreaTrigger] 102261 from default	(DELAY 10)
@@ -3041,9 +3269,13 @@
 'team outside 12' [ElementAreaTrigger] 101398 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 682.48901367188 x 500 x 808.8759765625 at position (-1326, 1911, 21.999900817871)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 682.48901367188 x 500 x 808.8759765625 at position (-1326, 1911, 21.999900817871) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'interact ball d1' [ElementUnitSequenceTrigger] 101462 from default
@@ -3111,9 +3343,13 @@
 'trigger_area_047' [ElementAreaTrigger] 102582 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 200 x 600 x 200 at position (-3180, 3392, -324.57998657227)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 200 x 600 x 200 at position (-3180, 3392, -324.57998657227) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_036' [ElementCounter] 102765 from default
  
 'logic_link_114' [MissionScriptElement] 102646 from default
@@ -3123,9 +3359,13 @@
 'trigger_area_056' [ElementAreaTrigger] 102710 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-4230, -4048, -379.0719909668)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-4230, -4048, -379.0719909668) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g12'
 		Toggle ON element 'trigger_area_057' [ElementAreaTrigger] 102713 from default
  
@@ -3219,9 +3459,13 @@
 'team outside 13' [ElementAreaTrigger] 101399 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 595 x 500 x 595 at position (-1101, -510, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 595 x 500 x 595 at position (-1101, -510, 25) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'interact ball d2' [ElementUnitSequenceTrigger] 101463 from default
@@ -3269,9 +3513,13 @@
  
 'trigger_area_040' [ElementAreaTrigger] 102359 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 235 x 500 x 500 at position (-2304, 3081, 47.054100036621)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 235 x 500 x 500 at position (-2304, 3081, 47.054100036621) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'trigger_area_028' [ElementAreaTrigger] 102118 from default
 		Toggle OFF element 'cft_ban_07x' [ElementDialogue] 102117 from default
  
@@ -3302,9 +3550,13 @@
  
 'area cops open' [ElementAreaTrigger] 100056 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 300 x 500 x 140.39999389648 at position (-1373, 2656, 100.25800323486)
-	Trigger instigator: enemies
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 300 x 500 x 140.39999389648 at position (-1373, 2656, 100.25800323486) rotation (-0, 0, 0)
+	Trigger instigator type: enemies
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open_front_door' on unit 101434 {units/world/architecture/suburbia/suburbia_house1} at (-3000, 3000, 0) 
  
 'logic_link_020' [MissionScriptElement] 100152 from default
@@ -3419,9 +3671,13 @@
 'team outside 14' [ElementAreaTrigger] 101400 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 250 x 500 x 250 at position (-1889.5, -571.72100830078, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 250 x 500 x 250 at position (-1889.5, -571.72100830078, 25) rotation (-0, 0, -44.999935150146)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'interact garden tap c' [ElementUnitSequenceTrigger] 101464 from default
@@ -3581,9 +3837,13 @@
 'team outside 15' [ElementAreaTrigger] 101401 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2089, -751, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2089, -751, 25) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'ai_enemy_trigger_026' [ElementEnemyDummyTrigger] 101497 from default
@@ -3621,17 +3881,25 @@
  
 'area civ open' [ElementAreaTrigger] 102361 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 200 x 500 x 140.39999389648 at position (-1438, 2656, 149.25799560547)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 200 x 500 x 140.39999389648 at position (-1438, 2656, 149.25799560547) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open_front_door' on unit 101434 {units/world/architecture/suburbia/suburbia_house1} at (-3000, 3000, 0) 
  
 'trigger_area_057' [ElementAreaTrigger] 102713 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-6006, -4060, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-6006, -4060, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g19'
  
 'logic_counter_014' [ElementCounter] 100154 from default
@@ -3697,9 +3965,13 @@
 'team outside 16' [ElementAreaTrigger] 101402 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 250 x 500 x 250 at position (-2310.6201171875, -576.05902099609, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 250 x 500 x 250 at position (-2310.6201171875, -576.05902099609, 25) rotation (-0, 0, -134.99990844727)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Team' [MissionScriptElement] 100240 from default
  
 'logic_counter_046' [ElementCounter] 101498 from default
@@ -3722,15 +3994,23 @@
  
 'trigger_area_042' [ElementAreaTrigger] 102362 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 176.30000305176 x 500 x 255.63299560547 at position (-2705, -375, 148.5)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 176.30000305176 x 500 x 255.63299560547 at position (-2705, -375, 148.5) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Run sequence 'open_front_door' on unit 101433 {units/world/architecture/suburbia/suburbia_house2} at (-3000, 500, 0) 
  
 'trigger_area_033' [ElementAreaTrigger] 102874 from default
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3130, 1564, -239.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3130, 1564, -239.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'logic_link_139' [MissionScriptElement] 102885 from default
 		Toggle ON element 'trigger_area_041' [ElementAreaTrigger] 102875 from default
 		Print debug string 'inside'
@@ -3959,9 +4239,13 @@
 'trigger_area_020' [ElementAreaTrigger] 101691 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-4651, -4076, -343.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-4651, -4076, -343.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute at random 1 of the following elements:
@@ -3988,9 +4272,13 @@
 'trigger_area_035' [ElementAreaTrigger] 102267 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 230.10000610352 x 500 x 271.45001220703 at position (-4269.7001953125, 1945.9200439453, 26.200000762939)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 230.10000610352 x 500 x 271.45001220703 at position (-4269.7001953125, 1945.9200439453, 26.200000762939) rotation (-0, -0, 29.999988555908)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_01x' from units: 
 			- {units/characters/civilians/suburbia_female4/suburbia_female4} from element 'ai_spawn_civilian_014'
 		Toggle ON element 'trigger_area_035' [ElementAreaTrigger] 102267 from default	(DELAY 10)
@@ -4003,9 +4291,13 @@
  
 'trigger_area_043' [ElementAreaTrigger] 102363 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1490.9899902344 x 500 x 1738.7900390625 at position (3045, 8441, 129.6609954834)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1490.9899902344 x 500 x 1738.7900390625 at position (3045, 8441, 129.6609954834) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'func_award_achievement_001' [ElementAwardAchievment] 102364 from default
 		Toggle OFF element 'logic_link_096' [MissionScriptElement] 102368 from default
  
@@ -4034,9 +4326,13 @@
  
 'trigger_area_041' [ElementAreaTrigger] 102875 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3130, 1564, -189.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3130, 1564, -189.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_139' [MissionScriptElement] 102885 from default
 		Toggle OFF element 'trigger_area_041' [ElementAreaTrigger] 102875 from default
 		Print debug string 'outside'
@@ -4072,9 +4368,13 @@
 		Stop effect {effects/particles/dest/bridge_heli_smoke} with fade-out
  
 'trigger_area_003' [ElementAreaTrigger] 101180 from default
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-7516, 1822, 15.675399780273)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-7516, 1822, 15.675399780273) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_link_019' [MissionScriptElement] 101178 from default
  
 'b3 circuit breaker' [MissionScriptElement] 101212 from default
@@ -4085,9 +4385,13 @@
 'civ outside 7' [ElementAreaTrigger] 101244 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 505 x 500 x 806.40002441406 at position (-1428, 1919, 25)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 505 x 500 x 806.40002441406 at position (-1428, 1919, 25) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'logic_link_046' [MissionScriptElement] 101276 from default
@@ -4125,9 +4429,13 @@
 'trigger_area_024' [ElementAreaTrigger] 102012 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 400 x 300 x 550 at position (-1651, 3100, 223.64599609375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 400 x 300 x 550 at position (-1651, 3100, 223.64599609375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_020' [ElementCounter] 102011 from default
  
 'logic_link_030' [MissionScriptElement] 102044 from default
@@ -4233,9 +4541,13 @@
 		Remove element 'point_play_sound_046' [ElementPlaySound] 102622 from default
  
 'trigger_area_059' [ElementAreaTrigger] 102876 from default
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3242, 1563, -239.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3242, 1563, -239.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'logic_link_138' [MissionScriptElement] 102883 from default
 		Toggle ON element 'trigger_area_060' [ElementAreaTrigger] 102877 from default
 		Print debug string 'inside'
@@ -4401,16 +4713,24 @@
 'area bains safes intact' [ElementAreaTrigger] 102685 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1083.5999755859 x 590 x 1260 at position (-4400, 3065, -574.4990234375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1083.5999755859 x 590 x 1260 at position (-4400, 3065, -574.4990234375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play dialogue 'cft_ban_43x'
  
 'trigger_area_060' [ElementAreaTrigger] 102877 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3242, 1563, -189.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3242, 1563, -189.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_138' [MissionScriptElement] 102883 from default
 		Toggle OFF element 'trigger_area_060' [ElementAreaTrigger] 102877 from default
 		Print debug string 'outside'
@@ -4468,9 +4788,13 @@
  
 'trigger_area_007' [ElementAreaTrigger] 101182 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-7463, 1334, 15.555199623108)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-7463, 1334, 15.555199623108) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Create objective for enemies around position (-7234, 1412, 15.553000450134) with action cloaker_wallrun_left
  
 'anim_start' [ElementSpecialObjectiveTrigger] 101214 from default
@@ -4497,9 +4821,13 @@
 'civ outside 2' [ElementAreaTrigger] 101246 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1147.2399902344 x 500 x 650 at position (-4133, -710, 21.999900817871)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1147.2399902344 x 500 x 650 at position (-4133, -710, 21.999900817871) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'Alert: Civ Outside' [MissionScriptElement] 100888 from default
  
 'logic_counter_039' [ElementCounter] 101374 from default
@@ -4547,9 +4875,13 @@
  
 'trigger_area_022' [ElementAreaTrigger] 102110 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 5499.759765625 x 500 x 5685.6000976563 at position (-3415, 1891, 26.200199127197)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 5499.759765625 x 500 x 5685.6000976563 at position (-3415, 1891, 26.200199127197) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_059' [MissionScriptElement] 102108 from default
 		Toggle OFF element 'cft_ban_02x' [ElementDialogue] 102106 from default
 		Toggle OFF element 'logic_link_053' [MissionScriptElement] 102107 from default
@@ -4611,17 +4943,25 @@
 'area gets back up to michell' [ElementAreaTrigger] 102718 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3976, 1937, 33.313201904297)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3976, 1937, 33.313201904297) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cft_mit_011' from units: 
 			- {units/characters/civilians/suburbia_male2/suburbia_male2} from element 'ai_spawn_civilian_008'
 		Toggle ON element 'trigger_area_039' [ElementAreaTrigger] 102343 from default	(DELAY 6)
  
 'trigger_area_061' [ElementAreaTrigger] 102878 from default
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3044, 1787, -239.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3044, 1787, -239.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle ON element 'logic_link_141' [MissionScriptElement] 102887 from default
 		Toggle ON element 'trigger_area_062' [ElementAreaTrigger] 102879 from default
 		Print debug string 'inside'
@@ -4679,9 +5019,13 @@
  
 'trigger_area_013' [ElementAreaTrigger] 100479 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-6282, 1056, 1119.4699707031)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-6282, 1056, 1119.4699707031) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Set difficulty to 1 
 		Change player state to 'standard'
 		Toggle OFF element 'trigger_area_010' [ElementAreaTrigger] 101298 from default
@@ -4784,9 +5128,13 @@
 'trigger_area_021' [ElementAreaTrigger] 101759 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-3001, -2082, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-3001, -2082, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute at random 1 of the following elements:
@@ -4818,9 +5166,13 @@
  
 'trigger_area_036' [ElementAreaTrigger] 102271 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 295 x 500 x 305 at position (-1776, 74, 28.601600646973)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 295 x 500 x 305 at position (-1776, 74, 28.601600646973) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 20s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_03x'
 		Toggle ON element 'trigger_area_036' [ElementAreaTrigger] 102271 from default	(DELAY 10)
  
@@ -4854,9 +5206,13 @@
 'area bains safe talk' [ElementAreaTrigger] 102655 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 996.29998779297 x 500 x 605.64001464844 at position (-5006, 3006, -574.4990234375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 996.29998779297 x 500 x 605.64001464844 at position (-5006, 3006, -574.4990234375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		If the difficulty is {Easy, Normal} and the player count is {1, 2, 3, 4} and the platform is {WIN32, PS3} and mode is {assault, control} then perform:
 			Play dialogue 'cft_ban_44x'
 			Print debug string 'cft_ban_44x'
@@ -4951,9 +5307,13 @@
  
 'trigger_area_062' [ElementAreaTrigger] 102879 from default
 	[INITIALLY DISABLED]
-	Trigger shape (WxHxD): 50 x 400 x 50 at position (-3044, 1787, -189.38499450684)
-	Trigger instigator: criminals
-	When trigger condition 'on_empty' is met, perform:
+	Trigger shape (Box WxHxD): 50 x 400 x 50 at position (-3044, 1787, -189.38499450684) rotation (-0, 0, 0)
+	Trigger instigator type: criminals
+	Trigger fires on: on_empty
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'logic_link_141' [MissionScriptElement] 102887 from default
 		Toggle OFF element 'trigger_area_062' [ElementAreaTrigger] 102879 from default
 		Print debug string 'outside'
@@ -5285,9 +5645,13 @@
  
 'trigger_area_050' [ElementAreaTrigger] 101185 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 491.39999389648 x 500 x 371 at position (-2610, 2644, 78.288803100586)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 491.39999389648 x 500 x 371 at position (-2610, 2644, 78.288803100586) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_06x' from units: 
 			- {units/characters/civilians/suburbia_female1/suburbia_female1} from element 'ai_spawn_civilian_019'
  
@@ -5339,9 +5703,13 @@
  
 'trigger_area_044' [ElementAreaTrigger] 102369 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 1490.9899902344 x 500 x 1738.7900390625 at position (-1042, -4886, 65.083503723145)
-	Trigger instigator: civilians
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 1490.9899902344 x 500 x 1738.7900390625 at position (-1042, -4886, 65.083503723145) rotation (-0, 0, 0)
+	Trigger instigator type: civilians
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 1s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Toggle OFF element 'func_award_achievement_001' [ElementAwardAchievment] 102364 from default
 		Toggle OFF element 'logic_link_096' [MissionScriptElement] 102368 from default
  
@@ -5359,9 +5727,13 @@
  
 'trigger_area_026' [ElementAreaTrigger] 100066 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 966.47399902344 x 500 x 1193.1800537109 at position (-5758, -2110, 12.5)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 966.47399902344 x 500 x 1193.1800537109 at position (-5758, -2110, 12.5) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
  
 'logic_counter_021' [ElementCounter] 100354 from default
@@ -5389,9 +5761,13 @@
  
 'trigger_area_008' [ElementAreaTrigger] 100386 from default
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 848.54602050781 x 500 x 1689.6600341797 at position (119, -1210, 25)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 848.54602050781 x 500 x 1689.6600341797 at position (119, -1210, 25) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Execute element 'logic_counter_004' [ElementCounter] 100023 from default
  
 'interact garden tap d' [ElementUnitSequenceTrigger] 100450 from default
@@ -5661,9 +6037,13 @@
 'trigger_area_051' [ElementAreaTrigger] 102691 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-7289, -4091, -397.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-7289, -4091, -397.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Make teammates close to instigator say 'g03'
 		Toggle ON element 'trigger_area_053' [ElementAreaTrigger] 102700 from default
  
@@ -5860,9 +6240,13 @@
 'all' [ElementAreaTrigger] 100356 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 10000 x 500 x 10000 at position (-5641, -1469, -316.78500366211)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 10000 x 500 x 10000 at position (-5641, -1469, -316.78500366211) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.25s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Remove waypoint with text 'Escape!' and icon wp_standard from (-5891, -397, -272.70401000977) 
 		Add waypoint with text 'Escape!' and icon wp_exit at (-7924, -6070, -267.78500366211) 	(DELAY 3)
 		Play sound 'cft_ocean_close'
@@ -5877,9 +6261,13 @@
 'trigger_area_009' [ElementAreaTrigger] 100388 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 595 x 500 x 595 at position (-8213, -6132, -375)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 595 x 500 x 595 at position (-8213, -6132, -375) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: all instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Complete objective 'xsub_escape' at position (-7705, -6177, -298.03298950195) 
 		End the current level/mission with state 'success'	(DELAY 2)
 		Perform 'func_sequence_039': 	(DELAY 1)
@@ -5947,9 +6335,13 @@
 'trigger_area_037' [ElementAreaTrigger] 102276 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 188.80000305176 x 500 x 228.75 at position (-3207, 2345, 51)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 188.80000305176 x 500 x 228.75 at position (-3207, 2345, 51) rotation (-0, 0, -179.99998474121)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Play sound 'cfr1_02x' from units: 
 			- {units/characters/civilians/suburbia_female1/suburbia_female1} from element 'ai_spawn_civilian_003'
 		Toggle ON element 'trigger_area_037' [ElementAreaTrigger] 102276 from default	(DELAY 10)
@@ -6035,9 +6427,13 @@
 'trigger_area_018' [ElementAreaTrigger] 101093 from default
 	[INITIALLY DISABLED]
 	[INITIAL TRIGGER TIMES: 1]
-	Trigger shape (WxHxD): 500 x 500 x 500 at position (-2036, -2137, -356.97399902344)
-	Trigger instigator: player
-	When trigger condition 'on_enter' is met, perform:
+	Trigger shape (Box WxHxD): 500 x 500 x 500 at position (-2036, -2137, -356.97399902344) rotation (-0, 0, 0)
+	Trigger instigator type: player
+	Trigger fires on: on_enter
+	Required amount: at least 1 instigators
+	Check interval: 0.10000000149012s
+	Additional instigators from elements: none
+	When conditions are met, perform:
 		Roll the dice with 25% chance to succeed.
 		On success, perform:
 			Execute at random 1 of the following elements:
