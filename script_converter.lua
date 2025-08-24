@@ -1267,18 +1267,44 @@ noinline = {
 		print_execution_list(element.values.on_executed, 2)
 	end,
 	["ElementAreaTrigger"] = function(element)
+		local values = element.values
 		_log(
 			string.format(
-				"\tTrigger shape (WxHxD): %s x %s x %s at position %s",
-				element.values.width,
-				element.values.height,
-				element.values.depth,
-				vector_string(element.values.position)
+				"\tTrigger shape (Box WxHxD): %s x %s x %s at position %s rotation %s",
+				values.width,
+				values.height,
+				values.depth,
+				vector_string(values.position),
+				rotation_string(values.rotation)
 			)
 		)
-		_log(string.format("\tTrigger instigator: %s", element.values.instigator))
-		_log(string.format("\tWhen trigger condition '%s' is met, perform:", element.values.trigger_on))
-		print_execution_list(element.values.on_executed, 2)
+
+		_log(string.format("\tTrigger instigator type: %s", values.instigator))
+		_log(string.format("\tTrigger fires on: %s", values.trigger_on))
+
+		if values.amount == "all" then
+			_log("\tRequired amount: all instigators")
+		elseif tonumber(values.amount) then
+			_log(string.format("\tRequired amount: at least %s instigators", values.amount))
+		else
+			_log("\tRequired amount: any (>=1)")
+		end
+
+		if values.interval then
+			_log(string.format("\tCheck interval: %ss", tostring(values.interval)))
+		end
+
+		if values.spawn_unit_elements and #values.spawn_unit_elements > 0 then
+			_log("\tAdditional instigators from elements:")
+			for _, id in ipairs(values.spawn_unit_elements) do
+				perform_element(id, 2)
+			end
+		else
+			_log("\tAdditional instigators from elements: none")
+		end
+
+		_log(string.format("\tWhen conditions are met, perform:"))
+		print_execution_list(values.on_executed, 2)
 	end,
 	["ElementUnitSequenceTrigger"] = function(element)
 		_log("\tIf any of the following sequences get triggered:")
